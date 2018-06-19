@@ -13,9 +13,21 @@
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script-->
 
-<link rel= "stylesheet" href="css/estilo.css">
-<link href="css/bootstrap.css" rel="stylesheet">
-	
+<link rel= "stylesheet" href="css/estilo.css"/>
+<link href="css/bootstrap.css" rel="stylesheet"/>
+
+
+<script type="text/javascript">
+
+function inserir()
+{document.getElementById('divTeste').innerHTML = '<input id="ce" class="form-control" placeholder="CEP" type="cep">';}
+
+
+function apg()
+{document.getElementById('divTeste').innerHTML = '';}
+
+
+</script>	
 
 </head>
 
@@ -32,12 +44,9 @@
 	
 				<div class="col-md-6 p4" style="background-color: white; margin-left: 270px;">
 						
-						<h3 class="p10 fon1"style="font-size: 50px;">  Delivery food  <br/>
+						<h3 class="p10 fon1"style="font-size: 50px;">  Delivery food  <br/> </h3>
 						
-						</h3>
-						
-						<p class="p10 p3 fon1">  Insira os dados abaixo: 
-						</p>
+						<p class="p10 p3 fon1">  Insira os dados abaixo: </p>
 						
 						<br/>
 						
@@ -45,7 +54,7 @@
 						<div class="form-group">
 						
 							<label for="name" class="sr-only">Seu nome</label>
-							<input id="name" class="form-control" placeholder="Nome" required type="text">
+							<input id="name" class="form-control" placeholder="Nome" required autofocus type="text">
 						</div>
 						
 						<div class="form-group ">
@@ -63,18 +72,33 @@
 							<input id="sen" class="form-control" placeholder="sua senha" type="senha">
 						</div>
 						
-						<div class="form-group ">
+						<div class="form-group">
+						
 							<label for="cep" class="sr-only">CEP</label>
 							<input id="ce" class="form-control" placeholder="CEP" type="cep">
+							<br/>
+							
+							<p class="texto" id="apagar"> <input type= "radio" name="opcao" value="1" onclick= "inserir()"/> Sou conzinheiro (a)/confeiteiro (a)
+							<input type= "radio" name="opcao" value= "2" onclick="apg()"/> Sou cliente</p>
+							
 						</div>
 						
-						<div class="form-group ">
+						
+						<div class="form-group" id="divTeste">
+							
+						</div>
+						
+						
+						
+						<div class="form-group">
 							<input class="btn btn-primary" value="Cadastrar-se" type="submit">
 							<br/>
 						</div>
 						
 							<a href="index.html"> <p class="cor"> voltar à página principal</p></a>
 							<a href="index.html"> <p class="cor"> Já tem uma conta?</p></a>
+							
+							
 						
 						</form>
 						</div>
@@ -87,6 +111,7 @@
 	</div>
 	
 	</div>
+	
 	
 
 
