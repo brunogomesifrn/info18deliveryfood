@@ -51,7 +51,7 @@
 				
 					<div class="form-group">
 							<label for="cep" class="sr-only">CEP</label>
-							<input id="ce" class="form-control" placeholder="CEP" type="text" maxlength="8">
+							<input name="cep" class="form-control" placeholder="CEP" type="text" maxlength="8">
 							
 							</div>
 							
@@ -65,7 +65,7 @@
 						
 						<div class="form-group">
 							<label for="endereço" class="sr-only">estado</label>
-							<input name="rua" class="form-control" placeholder="Seu estado" type="text">
+							<input name="estado" class="form-control" placeholder="Seu estado" type="text">
 						</div>
 						
 						<div class="form-group">
@@ -82,12 +82,12 @@
 						
 						<div class="form-group ">
 							<label for="email" class="sr-only">Confirme seu email</label>
-							<input name="email" class="form-control" placeholder="confirme seu email" type="text">
+							<input name="conemail" class="form-control" placeholder="confirme seu email" type="text">
 						</div>
 						
 						<div class="form-group ">
 							<label for="senha" class="sr-only">Sua senha</label>
-							<input id="sen" class="form-control" placeholder="Sua senha" type="password">
+							<input name="sen" class="form-control" placeholder="Sua senha" type="password">
 						</div>
 						
 						
