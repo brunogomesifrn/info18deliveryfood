@@ -11,7 +11,14 @@
 <link href="css/bootstrap.css" rel="stylesheet"/>
 
 
-<script src= "js/javascript.js"> </script>
+<script src= "js/java.js"> </script>
+
+
+<script type="text/javascript">
+
+
+
+</script>
 
 </head>
 
@@ -45,9 +52,13 @@
 						
 						<div class="form-group ">
 							<label for="cpf" class="sr-only">CPF</label>
-							<input name="cpf" class="form-control" placeholder="CPF, apenas números" type="text" maxlength="11" required>
-						</div>
+							<input name="cpf" id="numero" class="form-control" placeholder="CPF, apenas números" type="text" maxlength="11" required>
+							
+						<p id="msgOK" style="color:orangeRed;display:none; text-align: left; font-family: arial; font-size: 15px">CPF Válido.</p>
+						<p id="msgErro" style="color: orangeRed;display:none; text-align: left; font-family: arial; font-size: 15px">CPF inválido,
+						por favor, digite um CPF outro!</p>
 						
+						</div>	
 				
 					<div class="form-group">
 							<label for="cep" class="sr-only">CEP</label>
@@ -77,12 +88,12 @@
 						
 						<div class="form-group ">
 							<label for="email" class="sr-only">Seu email</label>
-							<input name="email" class="form-control" placeholder="Email" type="text" required>
+							<input name="email" class="form-control" placeholder="Email" id="m1" type="text" required>
 						</div>
 						
 						<div class="form-group ">
 							<label for="email" class="sr-only">Confirme seu email</label>
-							<input name="conemail" class="form-control" placeholder="confirme seu email" type="text" required>
+							<input name="conemail" class="form-control" placeholder="confirme seu email" id="m2" OnMouseOver= "" type="text" required>
 						</div>
 						
 						<div class="form-group ">
@@ -119,6 +130,8 @@
 							
 						
 						</form>
+						
+						<input type="button" value="teste" onclick="faz();"/>
 						</div>
 						
 					

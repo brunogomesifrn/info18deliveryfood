@@ -23,6 +23,7 @@ echo "<b> Email: </b>" . $email . "<br/> <br/>";
 echo "<b> Email confirmado: </b>" . $conemail . "<br/> <br/>";
 echo "<b> Senha do usuário: </b>" . $senha . "<br/> <br/>";
 
+
 if($usuario == 1){
 	
 	
