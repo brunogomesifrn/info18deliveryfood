@@ -34,7 +34,7 @@
 						
 						<br/>
 						
-						<form action="" method="post">
+						<form action="php/cadastrando.php" method="post">
 						
 						<div class="form-group">
 						

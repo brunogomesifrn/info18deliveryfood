@@ -2,7 +2,7 @@
 
 $nome= $_POST['n'];
 $cpf= $_POST['cpf'];
-$cep = $_POST['cep'];
+$cep = $_POST['ce'];
 $cidade = $_POST['cidade'];
 $estado = $_POST['estado'];
 $rua = $_POST['rua'];
@@ -13,18 +13,26 @@ $usuario = $_POST['opcao'];
 
 
 
-echo "<h2> Nome do usuário: </h2>" . "<p> $nome </p>";
-echo "<h2> CPF: </h2>". "<p> $cpf </p>";
-echo "<h2> CEP: </h2>". "<p> $cep </p>";
-echo "<h2> Cidade: </h2>". "<p> $cidade </p>";
-echo "<h2> estado: </h2>". "<p> $estado </p>";
-echo "<h2> Rua: </h2>". "<p> $rua</p>";
-echo "<h2> Email: </h2>". "<p> $email </p>";
-echo "<h2> Email confirmado: </h2>". "<p> $conemail </p>";
-echo "<h2> Senha do usuário: </h2>". "<p> $senha </p>";
-echo "<h2> Ele(a) quer: </h2>". "<p> $nome </p>";
+echo "<b> Nome do usuário: </b>".  $nome . "<br/> <br/>";
+echo "<b> CPF: </b>" . $cpf . "<br/><br/>" ;
+echo "<b> CEP: </b>" . $cep . "<br/> <br/>";
+echo "<b> Cidade: </b>" . $cidade . "<br/> <br/>";
+echo "<b> estado: </b>" . $estado . "<br/> <br/> ";
+echo "<b> Rua: </b>" . $rua . "<br/> <br/> ";
+echo "<b> Email: </b>" . $email . "<br/> <br/>";
+echo "<b> Email confirmado: </b>" . $conemail . "<br/> <br/>";
+echo "<b> Senha do usuário: </b>" . $senha . "<br/> <br/>";
 
+if($usuario == 1){
+	
+	
+	
+echo "<b> O usuário(a) quer: </b>" . "<b style= 'background-color: red'> vender produtos. </b>";
 
+}else{
+	
+	echo "<b> O usuário(a) é: </b>" . "<b style= 'background-color: red; font-size: 25px'> um cliente. </b>";
+}
 
 
 
