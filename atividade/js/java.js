@@ -46,13 +46,13 @@ document.getElementById('msgOK').style.display = 'none';
 document.getElementById('msgErro').style.display = 'none'; 
 var cpf = document.getElementById('numero').value;
   
-  if(valida_cpf(cpf))
-    document.getElementById('msgOK').style.display = 'block';
-  else
-document.getElementById('msgErro').style.display = 'block';  
-
+  if(valida_cpf(cpf)){
+    document.getElementById('msgOK').style.display = 'block';	
+  } else{
+	document.getElementById('msgErro').style.display = 'block'; 
+	document.getElementById('numero').value = "";
+}
 }	
-
 		
 //verificar CEP
 //erificar emails diitados.
