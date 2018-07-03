@@ -1,7 +1,7 @@
 function valida_cpf(cpf){
 	
-  cpf = cpf.replace('.','');
-  cpf = cpf.replace('-','');
+  //cpf = cpf.replace('.','');
+  //cpf = cpf.replace('-','');
   
   var numeros, digitos, soma, i, resultado, digitos_iguais;
   digitos_iguais = 1;
@@ -42,16 +42,17 @@ function valida_cpf(cpf){
 
 function faz(){
 	
-  document.getElementById('msgOK').style.display = 'none'; 
-  document.getElementById('msgErro').style.display = 'none'; 
-  var cpf = document.getElementById('numero').value;
+document.getElementById('msgOK').style.display = 'none'; 
+document.getElementById('msgErro').style.display = 'none'; 
+var cpf = document.getElementById('numero').value;
   
   if(valida_cpf(cpf))
-    document.getElementById('msgOK').style.display = 'block'; 
+    document.getElementById('msgOK').style.display = 'block';
   else
-document.getElementById('msgErro').style.display = 'block'; 
-document.getElementById('numero').value = "";
+document.getElementById('msgErro').style.display = 'block';  
+
 }	
+
 		
 //verificar CEP
 //erificar emails diitados.
