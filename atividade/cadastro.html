@@ -33,7 +33,7 @@
 						
 						<p class="p10 p3">  Para vender ou comprar cadastre-se inserindo os dados abaixo: </p> <br/>
 						
-						<form action="php/cadastrando.php" method="post">
+						<form action="php/cadastrando.php" method="post" name="formCadastro">
 						
 						<div class="form-group">
 						
@@ -81,12 +81,12 @@
 						
 						<div class="form-group ">
 							<label for="email" class="sr-only">Seu email</label>
-							<input name="email" class="form-control" placeholder="Email" id="m1" type="text" required>
+							<input name="email" class="form-control" placeholder="Email" id="m1" type="text" name="em" required>
 						</div>
 						
 						<div class="form-group ">
 							<label for="email" class="sr-only">Confirme seu email</label>
-							<input name="conemail" class="form-control" placeholder="confirme seu email" id="m2" type="text" required>
+							<input name="conemail" class="form-control" placeholder="confirme seu email" id="m2" type="text" OnBlur="apg();" required>
 						</div>
 						
 						<div class="form-group ">
@@ -124,7 +124,7 @@
 						
 						</form>
 						
-						<input type="button" value="teste" onclick="apg();"/>
+					
 						</div>
 						
 					
