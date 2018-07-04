@@ -68,6 +68,16 @@ function teste(){
 	
 
 function apg(){
-	document.getElementById('divTeste').innerHTML = '';
+	
+	var cm= document.getElementById('m1').value;
+	var cm3= document.getElementById('m2').value;
+	
+	
+	if(cm.length != cm3.length && cm != cm3){
+		
+		alert('Os emais digitados não são iguais, por favor, digite novamente!');
+		
+		
+	}
 	
 }
