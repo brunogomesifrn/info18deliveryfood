@@ -76,6 +76,9 @@ function apg(){
 	if(cm.length != cm3.length && cm != cm3){
 		
 		alert('Os emais digitados não são iguais, por favor, digite novamente!');
+		document.getElementById('m1').value = "";
+		document.getElementById('m2').value = "";
+		document.getElementById('m1').focus();
 		
 		
 	}
