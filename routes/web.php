@@ -19,6 +19,7 @@ Route::get('/', function () {
 });
 
 
+
 Route::get('/comidas', function () {
     return view('comidas');
 });
@@ -41,4 +42,5 @@ Route::get('/somos', function () {
 Route::get('/cadastro', function () {
     return view('cadastro');
 });
+
 
