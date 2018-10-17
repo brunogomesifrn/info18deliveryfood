@@ -15,3 +15,8 @@
 Route::get('/', function () {
     return view('inicio');
 });
+
+
+Route::get('/comer', function () {
+    return view('comidas');
+});
