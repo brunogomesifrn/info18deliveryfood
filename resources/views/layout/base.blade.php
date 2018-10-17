@@ -390,22 +390,29 @@ window.onclick = function(event) {
 
 
 
-<script src="js/jquery-1.7.1.min.js"></script>
-<script src="js/bootstrap-transition.js"></script>
-<script src="js/bootstrap-carousel.js"></script>
-<script src="js/bootstrap-alert.js"></script>
-<script src="js/bootstrap-modal.js"></script>
-<script src="js/bootstrap-dropdown.js"></script>
-<script src="js/bootstrap-scrollspy.js"></script>
-<script src="js/bootstrap-tab.js"></script>
-<script src="js/bootstrap-tooltip.js"></script>
-<script src="js/bootstrap-popover.js"></script>
-<script src="js/bootstrap-button.js"></script>
-<script src="js/bootstrap-collapse.js"></script>
-<script src="js/bootstrap-typeahead.js"></script>
-<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
-<script src="js/jquery.smooth-scroll.min.js"></script>
-<script src="js/lightbox.js"></script>
+
+<script src="{{asset('js/jquery-1.7.1.min.js')}}"></script>
+<script src="{{asset('js/bootstrap-transition.js')}}"></script>
+<script src="{{asset('js/bootstrap-carousel.js')}}"></script>
+<script src="{{asset('js/bootstrap-alert.js')}}"></script>
+
+
+<script src="{{asset('js/bootstrap-modal.js')}}"></script>
+<script src="{{asset('js/bootstrap-dropdown.js')}}"></script>
+<script src="{{asset('js/bootstrap-scrollspy.js')}}"></script>
+<script src="{{asset('js/bootstrap-tab.js')}}"></script>
+
+<script src="{{asset('js/bootstrap-tooltip.js')}}"></script>
+<script src="{{asset('js/bootstrap-popover.js')}}"></script>
+<script src="{{asset('js/bootstrap-button.js')}}"></script>
+<script src="{{asset('js/bootstrap-collapse.js')}}"></script>
+
+<script src="{{asset('js/bootstrap-typeahead.js')}}"></script>
+<script src="{{asset('js/jquery-ui-1.8.18.custom.min.js')}}"></script>
+<script src="{{asset('js/jquery.smooth-scroll.min.js')}}"></script>
+<script src="{{asset('js/lightbox.js')}}"></script>
+
+
 
 <script>
 $('.carousel').carousel({
@@ -413,22 +420,26 @@ $('.carousel').carousel({
 })
 </script>
 
+<link href="{{asset('css/estilo.css')}}"
+rel="stylesheet" type="text/css">
 
-	<script src="js/jquery.min.js"></script>
-	
-	<script src="js/jquery.easing.1.3.js"></script>
-	
-	<script src="js/bootstrap.min.js"></script>
-	
-	<script src="js/moment.js"></script>
-	
-	<script src="js/bootstrap-datetimepicker.min.js"></script>
-	
-	<script src="js/jquery.waypoints.min.js"></script>
-	
-	<script src="js/jquery.stellar.min.js"></script>
 
-	<script src="js/jquery.flexslider-min.js"></script>
+
+	<script src="{{asset('js/jquery.min.js')}}"></script>
+	
+	<script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
+	
+	<script src="{{asset('js/bootstrap.min.js')}}"></script>
+	
+	<script src="{{asset('js/moment.js')}}"></script>
+	
+	<script src="{{asset('js/bootstrap-datetimepicker.min.js')}}"></script>
+	
+	<script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
+	
+	<script src="{{asset('js/jquery.stellar.min.js')}}"></script>
+
+	<script src="{{asset('js/jquery.flexslider-min.js')}}"></script>
 	<script>
 		$(function () {
 	       $('#date').datetimepicker();
@@ -436,7 +447,7 @@ $('.carousel').carousel({
 	   
 			
 	</script>
-	<script src="js/main.js"></script>
+	<script src="{{asset('js/main.js')}}"></script>
 
 </body>
 </html>
