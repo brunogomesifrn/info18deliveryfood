@@ -18,10 +18,4 @@ Route::get('/', function () {
     return view('inicio');
 });
 
-<<<<<<< HEAD
 
-Route::get('/comer', function () {
-    return view('comidas');
-});
-=======
->>>>>>> 2ef56f25a0f85843a433b8384abc4dac1525ef2d

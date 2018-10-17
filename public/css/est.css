@@ -1,0 +1,41 @@
+@font-face{
+	
+font-family: "Mungkin italic";
+  src: url("Mungkin italic.otf") format("truetype");
+}
+
+
+@font-face{
+	
+font-family: "Reitam Regular";
+  src: url("Reitam Regular.otf") format("truetype");
+}
+
+
+
+.fon{
+	
+	font-family: "Mungkin italic";
+	font-size: 45px;
+	padding-top: 15px;
+}
+
+.fon1{
+	
+		font-family: "Verdana";
+	
+}
+
+.fon2{
+	
+		font-family: "Verdana";
+		color: white;
+		text-shadow: 1px 0px 0px red,
+		-1px, 0px 0px red,
+		0px 1px 0px red,
+		0px -1px 0px red;
+		font-weight: bold;
+		font-size: 50px;
+	
+}
+
