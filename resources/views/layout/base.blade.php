@@ -17,27 +17,27 @@
 	
 
 	
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="{{asset('css/animate.css')}}">
 	
-	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<link rel="stylesheet" href="{{asset('css/simple-line-icons.css')}}">
 	
-	<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet" href="{{asset('css/bootstrap-datetimepicker.min.css')}}">
 	
-	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="{{asset('css/flexslider.css')}}">
 
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
 
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="{{asset('css/style.css')}}">
 	
-	<link rel="stylesheet" href="est.css">
+	<link rel="stylesheet" href="{{asset('est.css')}}">
 
-	<link href="css1/login.css" rel="stylesheet">
+	<link href="{{asset('css/login.css')}}" rel="stylesheet">
 	
-	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="{{asset('css/bootstrap-responsive.css')}}" rel="stylesheet">
 	
-	<link href="css/bootstrap1.css" rel="stylesheet">
+	<link href="{{asset('css/bootstrap1.css')}}" rel="stylesheet">
 	
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	

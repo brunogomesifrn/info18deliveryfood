@@ -4,7 +4,7 @@
 <head>
 	<title> Login</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
-	<link rel="stylesheet" type="text/css" href="css1/estilo_tela_login.css">
+	<link rel="stylesheet" type="text/css" href="{{asset('css/estilo_tela_login.css')}}">
 </head>
 
 <body>
