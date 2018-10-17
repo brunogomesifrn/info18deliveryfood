@@ -12,6 +12,9 @@
 */
 
 
+
+
 Route::get('/', function () {
     return view('inicio');
 });
+
