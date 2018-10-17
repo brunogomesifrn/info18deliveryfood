@@ -18,3 +18,27 @@ Route::get('/', function () {
     return view('inicio');
 });
 
+
+Route::get('/comidas', function () {
+    return view('comidas');
+});
+
+
+
+
+Route::get('/orçamento', function () {
+    return view('orcamento');
+});
+
+
+
+
+Route::get('/somos', function () {
+    return view('somos');
+});
+
+
+Route::get('/cadastro', function () {
+    return view('cadastro');
+});
+
