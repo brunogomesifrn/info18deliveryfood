@@ -18,6 +18,8 @@
 
 	
 	<link rel="stylesheet" href="{{asset('css/animate.css')}}">
+
+	<link rel="stylesheet" href="{{asset('css/estilo(2).css')}}">
 	
 	<link rel="stylesheet" href="{{asset('css/simple-line-icons.css')}}">
 	
@@ -25,11 +27,11 @@
 	
 	<link rel="stylesheet" href="{{asset('css/flexslider.css')}}">
 
-	<link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
+	<link rel="stylesheet" href="{{asset('css/bootstrap(2).css')}}">
 
 	<link rel="stylesheet" href="{{asset('css/style.css')}}">
 	
-	<link rel="stylesheet" href="{{asset('est.css')}}">
+	<link rel="stylesheet" href="{{asset('css/est.css')}}">
 
 	<link href="{{asset('css/login.css')}}" rel="stylesheet">
 	
