@@ -7,7 +7,7 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
-<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<!--<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />-->
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
@@ -19,7 +19,7 @@
 	
 	<link rel="stylesheet" href="{{asset('css/animate.css')}}">
 
-	<link rel="stylesheet" href="{{asset('css/estilo(2).css')}}">
+	<link rel="stylesheet" href="{{asset('css/estilo (2).css')}}">
 	
 	<link rel="stylesheet" href="{{asset('css/simple-line-icons.css')}}">
 	
@@ -27,7 +27,7 @@
 	
 	<link rel="stylesheet" href="{{asset('css/flexslider.css')}}">
 
-	<link rel="stylesheet" href="{{asset('css/bootstrap(2).css')}}">
+	<link rel="stylesheet" href="{{asset('css/bootstrap (2).css')}}">
 
 	<link rel="stylesheet" href="{{asset('css/style.css')}}">
 	
@@ -393,9 +393,9 @@ window.onclick = function(event) {
 
 
 
-<script src="{{asset('js/jquery-1.7.1.min.js')}}"></script>
-<script src="{{asset('js/bootstrap-transition.js')}}"></script>
-<script src="{{asset('js/bootstrap-carousel.js')}}"></script>
+<!--<script src="{{asset('js/jquery-1.7.1.min.js')}}"></script>-->
+<!--<script src="{{asset('js/bootstrap-transition.js')}}"></script>-->
+<!--<script src="{{asset('js/bootstrap-carousel.js')}}"></script>-->
 <script src="{{asset('js/bootstrap-alert.js')}}"></script>
 
 

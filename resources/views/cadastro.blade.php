@@ -12,7 +12,7 @@
 <link href="{{asset('css/bootstrap.css')}}" rel="stylesheet"/>
 
 
-<script src= "c1/java.js"> </script>
+<script src= "js/java.js"> </script>
 
 
 </head>

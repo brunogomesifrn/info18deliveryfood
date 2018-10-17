@@ -26,7 +26,7 @@ Route::get('/comidas', function () {
 
 
 
-Route::get('/orçamento', function () {
+Route::get('/orcamento', function () {
     return view('orcamento');
 });
 
