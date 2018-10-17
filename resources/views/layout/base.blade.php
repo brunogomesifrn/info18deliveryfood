@@ -425,21 +425,21 @@ rel="stylesheet" type="text/css">
 
 
 
-	<script src="js/jquery.min.js"></script>
+	<script src="{{asset('js/jquery.min.js')}}"></script>
 	
-	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
 	
-	<script src="js/bootstrap.min.js"></script>
+	<script src="{{asset('js/bootstrap.min.js')}}"></script>
 	
-	<script src="js/moment.js"></script>
+	<script src="{{asset('js/moment.js')}}"></script>
 	
-	<script src="js/bootstrap-datetimepicker.min.js"></script>
+	<script src="{{asset('js/bootstrap-datetimepicker.min.js')}}"></script>
 	
-	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
 	
-	<script src="js/jquery.stellar.min.js"></script>
+	<script src="{{asset('js/jquery.stellar.min.js')}}"></script>
 
-	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="{{asset('js/jquery.flexslider-min.js')}}"></script>
 	<script>
 		$(function () {
 	       $('#date').datetimepicker();
@@ -447,7 +447,7 @@ rel="stylesheet" type="text/css">
 	   
 			
 	</script>
-	<script src="js/main.js"></script>
+	<script src="{{asset('js/main.js')}}"></script>
 
 </body>
 </html>
