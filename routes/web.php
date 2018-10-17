@@ -18,8 +18,6 @@ Route::get('/', function () {
     return view('inicio');
 });
 
-<<<<<<< HEAD
-
 
 Route::get('/comidas', function () {
     return view('comidas');
@@ -43,12 +41,4 @@ Route::get('/somos', function () {
 Route::get('/cadastro', function () {
     return view('cadastro');
 });
-=======
-<<<<<<< HEAD
 
-Route::get('/comer', function () {
-    return view('comidas');
-});
-=======
->>>>>>> 2ef56f25a0f85843a433b8384abc4dac1525ef2d
->>>>>>> e76c40fe52ba453112f0b205e0dd35fbe99b3967
