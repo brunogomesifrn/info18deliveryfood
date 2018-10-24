@@ -34,7 +34,7 @@
 						
 						<p class="p10 p3">  Para vender ou comprar cadastre-se inserindo os dados abaixo: </p> <br/>
 						
-						<form action="php/cadastrando.php" method="post" name="formCadastro">
+						<form action="{{asset('php/cadastrando.blade.php')}}" method="post" name="formCadastro">
 						
 						<div class="form-group">
 						

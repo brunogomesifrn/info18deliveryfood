@@ -394,8 +394,8 @@ window.onclick = function(event) {
 
 
 <!--<script src="{{asset('js/jquery-1.7.1.min.js')}}"></script>-->
-<!--<script src="{{asset('js/bootstrap-transition.js')}}"></script>-->
-<!--<script src="{{asset('js/bootstrap-carousel.js')}}"></script>-->
+<script src="{{asset('js/bootstrap-transition.js')}}"></script>
+<script src="{{asset('js/bootstrap-carousel.js')}}"></script>
 <script src="{{asset('js/bootstrap-alert.js')}}"></script>
 
 
