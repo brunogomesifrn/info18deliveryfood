@@ -8,8 +8,8 @@
 	
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel= "stylesheet" href="{{asset('css/estilo.css')}}"/>
-<link href="{{asset('css/bootstrap.css')}}" rel="stylesheet"/>
+<link rel= "stylesheet" href="{{asset('css/estilo_cadastro.css')}}"/>
+<link href="{{asset('css/bootstrap_cadastro.css')}}" rel="stylesheet"/>
 
 
 <script src= "js/java.js"> </script>
