@@ -309,6 +309,8 @@ window.onclick = function(event) {
 			
 		</div>
 
+
+
 <script>
 $('.carousel').carousel({
   interval: 5000
