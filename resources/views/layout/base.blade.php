@@ -41,7 +41,7 @@
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<script src="{{asset('js/jquery-1.7.1.min.js')}}"></script>
+<script src="{{asset('js/jquery-1.7.1.min.js')}}"></script>
 <script src="{{asset('js/bootstrap-transition.js')}}"></script>
 <script src="{{asset('js/bootstrap-carousel.js')}}"></script>
 <script src="{{asset('js/bootstrap-alert.js')}}"></script>
@@ -88,7 +88,8 @@
 			
 	</script>-->
 
-<script src="{{asset('js/main.js')}}"></script><script src="{{asset('js/jquery-1.7.1.min.js')}}"></script>
+<script src="{{asset('js/main.js')}}"></script>
+<script src="{{asset('js/jquery-1.7.1.min.js')}}"></script>
 <script src="{{asset('js/bootstrap-transition.js')}}"></script>
 <script src="{{asset('js/bootstrap-carousel.js')}}"></script>
 <script src="{{asset('js/bootstrap-alert.js')}}"></script>
