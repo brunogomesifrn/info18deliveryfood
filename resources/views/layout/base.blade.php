@@ -18,8 +18,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Merriweather:300,400italic,300italic,400,700italic" rel='stylesheet' type='text/css'>
 	
 	<link rel="stylesheet" href="{{asset('css/animate.css')}}">
-
-	<link rel="stylesheet" href="{{asset('css/formato.css')}}">
 	
 	<link rel="stylesheet" href="{{asset('css/simple-line-icons.css')}}">
 	
@@ -41,103 +39,168 @@
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<script src="{{asset('js/jquery-1.7.1.min.js')}}"></script>
-<script src="{{asset('js/bootstrap-transition.js')}}"></script>
-<script src="{{asset('js/bootstrap-carousel.js')}}"></script>
-<script src="{{asset('js/bootstrap-alert.js')}}"></script>
+<style>
+.topnav {
+    background-color: #FFC125; /* cor do menu completo */
+    overflow: hidden;
 
-
-<script src="{{asset('js/bootstrap-modal.js')}}"></script>
-<script src="{{asset('js/bootstrap-dropdown.js')}}"></script>
-<script src="{{asset('js/bootstrap-scrollspy.js')}}"></script>
-<script src="{{asset('js/bootstrap-tab.js')}}"></script>
-
-<script src="{{asset('js/bootstrap-tooltip.js')}}"></script>
-<script src="{{asset('js/bootstrap-popover.js')}}"></script>
-<script src="{{asset('js/bootstrap-button.js')}}"></script>
-<script src="{{asset('js/bootstrap-collapse.js')}}"></script>
-
-<script src="{{asset('js/bootstrap-typeahead.js')}}"></script>
-<script src="{{asset('js/jquery-ui-1.8.18.custom.min.js')}}"></script>
-<script src="{{asset('js/jquery.smooth-scroll.min.js')}}"></script>
-<script src="{{asset('js/lightbox.js')}}"></script>
+}
 
 
 
-	<script src="{{asset('js/jquery.min.js')}}"></script>
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #1C1C1C; /* cor da fonte */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+	font-family: 'Verdana', "COURIER", arial;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #FFB90F; /* cor conforme passar o mouse */
+    color: white;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #CD950C; /* cor da página que está visitando */
+    color: #1C1C1C;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+  
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+		
+	.paragrafos{
+		
+		font-family: Arial, Verdana;
+		font-size: 18px;
+		color: #1C1C1C;
+	}	
 	
-	<script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
+	.paragrafos1{
+		
+		font-family: Arial, Verdana;
+		font-size: 15px;
+		color: #1C1C1C;
+	}
 	
-	<script src="{{asset('js/bootstrap.min.js')}}"></script>
-	
-	<script src="{{asset('js/moment.js')}}"></script>
-	
-	<script src="{{asset('js/bootstrap-datetimepicker.min.js')}}"></script>
-	
-	<script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
-	
-	<script src="{{asset('js/jquery.stellar.min.js')}}"></script>
-
-	<script src="{{asset('js/jquery.flexslider-min.js')}}"></script>
-	
-	<!--<script>
-		$(function () {
-	       $('#date').datetimepicker();
-	   });
-	   
-			
-	</script>-->
-
-<script src="{{asset('js/main.js')}}"></script>
-<script src="{{asset('js/jquery-1.7.1.min.js')}}"></script>
-<script src="{{asset('js/bootstrap-transition.js')}}"></script>
-<script src="{{asset('js/bootstrap-carousel.js')}}"></script>
-<script src="{{asset('js/bootstrap-alert.js')}}"></script>
 
 
-<script src="{{asset('js/bootstrap-modal.js')}}"></script>
-<script src="{{asset('js/bootstrap-dropdown.js')}}"></script>
-<script src="{{asset('js/bootstrap-scrollspy.js')}}"></script>
-<script src="{{asset('js/bootstrap-tab.js')}}"></script>
+.plis{
 
-<script src="{{asset('js/bootstrap-tooltip.js')}}"></script>
-<script src="{{asset('js/bootstrap-popover.js')}}"></script>
-<script src="{{asset('js/bootstrap-button.js')}}"></script>
-<script src="{{asset('js/bootstrap-collapse.js')}}"></script>
+padding: 16px
 
-<script src="{{asset('js/bootstrap-typeahead.js')}}"></script>
-<script src="{{asset('js/jquery-ui-1.8.18.custom.min.js')}}"></script>
-<script src="{{asset('js/jquery.smooth-scroll.min.js')}}"></script>
-<script src="{{asset('js/lightbox.js')}}"></script>
+}
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
 
-<link href="{{asset('css/estilo.css')}}" rel="stylesheet" type="text/css">
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
 
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
 
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+	height: 60%;
+}
 
-	<script src="{{asset('js/jquery.min.js')}}"></script>
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    
+}
 	
-	<script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
-	
-	<script src="{{asset('js/bootstrap.min.js')}}"></script>
-	
-	<script src="{{asset('js/moment.js')}}"></script>
-	
-	<script src="{{asset('js/bootstrap-datetimepicker.min.js')}}"></script>
-	
-	<script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
-	
-	<script src="{{asset('js/jquery.stellar.min.js')}}"></script>
-
-	<script src="{{asset('js/jquery.flexslider-min.js')}}"></script>
-	
-	<!--<script>
-		$(function () {
-	       $('#date').datetimepicker();
-	   });
-	   
-			
-	</script>-->
-
+	</style>
 <script src="{{asset('js/main.js')}}"></script>
 		
 <script>
@@ -311,6 +374,102 @@ window.onclick = function(event) {
 		</div>
 
 
+<script src="{{asset('js/jquery-1.7.1.min.js')}}"></script>
+<script src="{{asset('js/bootstrap-transition.js')}}"></script>
+<script src="{{asset('js/bootstrap-carousel.js')}}"></script>
+<script src="{{asset('js/bootstrap-alert.js')}}"></script>
+
+
+<script src="{{asset('js/bootstrap-modal.js')}}"></script>
+<script src="{{asset('js/bootstrap-dropdown.js')}}"></script>
+<script src="{{asset('js/bootstrap-scrollspy.js')}}"></script>
+<script src="{{asset('js/bootstrap-tab.js')}}"></script>
+
+<script src="{{asset('js/bootstrap-tooltip.js')}}"></script>
+<script src="{{asset('js/bootstrap-popover.js')}}"></script>
+<script src="{{asset('js/bootstrap-button.js')}}"></script>
+<script src="{{asset('js/bootstrap-collapse.js')}}"></script>
+
+<script src="{{asset('js/bootstrap-typeahead.js')}}"></script>
+<script src="{{asset('js/jquery-ui-1.8.18.custom.min.js')}}"></script>
+<script src="{{asset('js/jquery.smooth-scroll.min.js')}}"></script>
+<script src="{{asset('js/lightbox.js')}}"></script>
+
+
+
+	<script src="{{asset('js/jquery.min.js')}}"></script>
+	
+	<script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
+	
+	<script src="{{asset('js/bootstrap.min.js')}}"></script>
+	
+	<script src="{{asset('js/moment.js')}}"></script>
+	
+	<script src="{{asset('js/bootstrap-datetimepicker.min.js')}}"></script>
+	
+	<script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
+	
+	<script src="{{asset('js/jquery.stellar.min.js')}}"></script>
+
+	<script src="{{asset('js/jquery.flexslider-min.js')}}"></script>
+	
+	<!--<script>
+		$(function () {
+	       $('#date').datetimepicker();
+	   });
+	   
+			
+	</script>-->
+
+<script src="{{asset('js/main.js')}}"></script>
+<script src="{{asset('js/jquery-1.7.1.min.js')}}"></script>
+<script src="{{asset('js/bootstrap-transition.js')}}"></script>
+<script src="{{asset('js/bootstrap-carousel.js')}}"></script>
+<script src="{{asset('js/bootstrap-alert.js')}}"></script>
+
+
+<script src="{{asset('js/bootstrap-modal.js')}}"></script>
+<script src="{{asset('js/bootstrap-dropdown.js')}}"></script>
+<script src="{{asset('js/bootstrap-scrollspy.js')}}"></script>
+<script src="{{asset('js/bootstrap-tab.js')}}"></script>
+
+<script src="{{asset('js/bootstrap-tooltip.js')}}"></script>
+<script src="{{asset('js/bootstrap-popover.js')}}"></script>
+<script src="{{asset('js/bootstrap-button.js')}}"></script>
+<script src="{{asset('js/bootstrap-collapse.js')}}"></script>
+
+<script src="{{asset('js/bootstrap-typeahead.js')}}"></script>
+<script src="{{asset('js/jquery-ui-1.8.18.custom.min.js')}}"></script>
+<script src="{{asset('js/jquery.smooth-scroll.min.js')}}"></script>
+<script src="{{asset('js/lightbox.js')}}"></script>
+
+<link href="{{asset('css/estilo.css')}}" rel="stylesheet" type="text/css">
+
+
+
+	<script src="{{asset('js/jquery.min.js')}}"></script>
+	
+	<script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
+	
+	<script src="{{asset('js/bootstrap.min.js')}}"></script>
+	
+	<script src="{{asset('js/moment.js')}}"></script>
+	
+	<script src="{{asset('js/bootstrap-datetimepicker.min.js')}}"></script>
+	
+	<script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
+	
+	<script src="{{asset('js/jquery.stellar.min.js')}}"></script>
+
+	<script src="{{asset('js/jquery.flexslider-min.js')}}"></script>
+	
+	<!--<script>
+		$(function () {
+	       $('#date').datetimepicker();
+	   });
+	   
+			
+	</script>-->
 
 <script>
 $('.carousel').carousel({
