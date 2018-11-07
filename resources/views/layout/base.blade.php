@@ -340,11 +340,11 @@ window.onclick = function(event) {
 					  
 					  
 					
-					  <a href="inicio.php" class="active">Início</a>
-					  <a href="comidas.php">Buscar produtos</a>
-					  <a href="somos.php" class="">Quem somos</a>
-					  <a href="cadastro.php">Cadastrar-se</a>
-					   <a href="orcamento.php">Orçamento</a>
+					  <a href="/inicio" class="active">Início</a>
+					  <a href="/comidas">Buscar produtos</a>
+					  <a href="/somos" class="">Quem somos</a>
+					  <a href="/cadastro">Cadastrar-se</a>
+					   <a href="/orcamento">Orçamento</a>
 					  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
 					<i class="fa fa-bars"></i>
 						</a>
