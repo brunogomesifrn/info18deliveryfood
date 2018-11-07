@@ -3,7 +3,6 @@
 <html>
 
 <head>
-
 <title> delivery food </title>
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
@@ -11,19 +10,24 @@
 <!--<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />-->
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="shortcut icon" href="favicon.ico">
 
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Merriweather:300,400italic,300italic,400,700italic' rel='stylesheet' type='text/css'>
+	
 
-<link href="{{asset('css/estilo.css')}}" rel="stylesheet" type="text/css">
-
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Merriweather:300,400italic,300italic,400,700italic" rel='stylesheet' type='text/css'>
 	
 	<link rel="stylesheet" href="{{asset('css/animate.css')}}">
+
+	<link rel="stylesheet" href="{{asset('css/estilo (2).css')}}">
 	
 	<link rel="stylesheet" href="{{asset('css/simple-line-icons.css')}}">
 	
 	<link rel="stylesheet" href="{{asset('css/bootstrap-datetimepicker.min.css')}}">
 	
 	<link rel="stylesheet" href="{{asset('css/flexslider.css')}}">
+
+	<link rel="stylesheet" href="{{asset('css/bootstrap (2).css')}}">
 
 	<link rel="stylesheet" href="{{asset('css/style.css')}}">
 	
@@ -38,8 +42,9 @@
 	<script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<style>
+	
+<style type="text/css">
+	
 .topnav {
     background-color: #FFC125; /* cor do menu completo */
     overflow: hidden;
@@ -199,9 +204,9 @@ span.psw {
     }
     
 }
-	
-	</style>
-<script src="{{asset('js/main.js')}}"></script>
+		
+</style>
+		
 		
 <script>
 		
@@ -229,19 +234,17 @@ span.psw {
 <div class="container">
 
 	<div class="row" style="padding-top: px">
-				<div class="col-md-2 paragrafos1">
-				&#9993; deliveryfood.com.br 
+	<div class="col-md-2 paragrafos1">
+
+		&#9993; deliveryfood.com.br 
 
 	</div>
-
 	
-		<div class="col-md-3 paragrafos1" style="margin-left: 0px;">
+	<div class="col-md-3 paragrafos1" style="margin-left: 0px;">
 
 	 &#9743; (84) 9999-9999
 	
 	</div>
-
-
 	
 	<div class="col-md-7" style="text-align: right">
 
@@ -253,7 +256,7 @@ span.psw {
 		
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="php/recebeLogin.php" method="post">
+  <form class="modal-content animate" action="php/recebeLogin.php">
    
    <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
@@ -262,8 +265,8 @@ span.psw {
     
 
     <div class="plis">
-      <p><input type="text" placeholder="&#128272; usuário" name="usuario" class="estilo" required></p>
-      <p><input type="password" placeholder="&#128272; senha" class="estilo" name="senha" required> </p>  
+      <p><input type="text" placeholder="&#128272; usuário" name="uname" class="estilo" required></p>
+      <p><input type="password" placeholder="&#128272; senha" class="estilo" name="psw" required> </p>  
       <button type="submit" class="botao">entrar</button>
     </div>
   </form>
@@ -281,10 +284,9 @@ window.onclick = function(event) {
     }
 }
 </script>
-			
-
-
+				
 	<div class="container" style="">
+	
 	<div class="row" style="">
 	<div class="col-md-12">
 	<div id="myCarousel" class="carousel slide" style="padding-bottom: 0px;">
@@ -296,8 +298,7 @@ window.onclick = function(event) {
 	  
         <div class="carousel-caption" style="padding: 100px;">
          
-		<h1 class="p6 fon2" style="font-family: verdana;  font-size: 35px;">
-		 Cadastre-se no site e divulgue seus pratos! </h1>
+		<h1 class="p6 fon2" style="font-family: verdana;  font-size: 35px;"> Cadastre-se no site e divulgue seus pratos! </h1>
 		 
           </div>
       </div>
@@ -307,8 +308,7 @@ window.onclick = function(event) {
 	  
         <div class="carousel-caption" style="padding: 100px;">
           
-		  <h1 class="p6 fon2" style="font-family: verdana;  font-size: 35px;">
-		   Compre delícias para qualquer ocasião! </h1>
+		  <h1 class="p6 fon2" style="font-family: verdana;  font-size: 35px;"> Compre delícias para qualquer ocasião! </h1>
 		  
           </div>
       
@@ -320,19 +320,19 @@ window.onclick = function(event) {
 	  
         <div class="carousel-caption" style="padding: 100px;">
           
-		  <h1 class="p6 fon2" style="font-family: verdana; font-size: 35px;"> 
-		  Pesquise preços antes de comprar. Faça um orçamento! </h1>
+		  <h1 class="p6 fon2" style="font-family: verdana; font-size: 35px;"> Pesquise preços antes de comprar. Faça um orçamento! </h1>
 		  
           </div>
+      
+	  
 	  </div>
+	  
     </div>
  </div>
 	</div>
 	</div>
 	</div>
 	
-	
-
 	<div class="container" style="padding-bottom: 0px;">
 		<div class="row">
 		<div class="col-md-12">
@@ -340,11 +340,11 @@ window.onclick = function(event) {
 					  
 					  
 					
-					  <a href="/inicio" class="active">Início</a>
-					  <a href="/comidas">Buscar produtos</a>
-					  <a href="/somos" class="">Quem somos</a>
-					  <a href="/cadastro">Cadastrar-se</a>
-					   <a href="/orcamento.php">Orçamento</a>
+					  <a href="inicio.php" class="active">Início</a>
+					  <a href="comidas.php">Buscar produtos</a>
+					  <a href="somos.php" class="">Quem somos</a>
+					  <a href="cadastro.php">Cadastrar-se</a>
+					   <a href="orcamento.php">Orçamento</a>
 					  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
 					<i class="fa fa-bars"></i>
 						</a>
@@ -356,7 +356,19 @@ window.onclick = function(event) {
 			</div>
 
 
+
+
+
+
 				@yield('conteudo')
+
+
+
+
+
+
+
+
 
 
 
@@ -364,9 +376,7 @@ window.onclick = function(event) {
 	<div class="container" style="background-color: white; text-align: center; font-family: Arial; color: #1C1C1C">
 			<div class="row">
 				<div class="col-md-12">
-					<p class=""><br><br><br><br><br><br><br>
-
-					&copy; Copyright 2018. <a>Delivery food.</a> By: <a href="">Aline Bispo</a>, <a href=""> Ana Karolina </a> e <a href=""> Simeone. </a>  </p>		
+					<p class="">&copy; Copyright 2018. <a>Delivery food.</a> By: <a href="">Aline Bispo</a>, <a href=""> Ana Karolina </a> e <a href=""> Simeone. </a>  </p>		
 				</div>
 				
 			</div>
@@ -374,9 +384,18 @@ window.onclick = function(event) {
 		</div>
 
 
-<script src="{{asset('js/jquery-1.7.1.min.js')}}"></script>
-<script src="{{asset('js/bootstrap-transition.js')}}"></script>
-<script src="{{asset('js/bootstrap-carousel.js')}}"></script>
+
+
+
+
+
+
+
+
+
+<!--<script src="{{asset('js/jquery-1.7.1.min.js')}}"></script>-->
+<!--<script src="{{asset('js/bootstrap-transition.js')}}"></script>-->
+<!--<script src="{{asset('js/bootstrap-carousel.js')}}"></script>-->
 <script src="{{asset('js/bootstrap-alert.js')}}"></script>
 
 
@@ -396,86 +415,41 @@ window.onclick = function(event) {
 <script src="{{asset('js/lightbox.js')}}"></script>
 
 
-
-	<script src="{{asset('js/jquery.min.js')}}"></script>
-	
-	<script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
-	
-	<script src="{{asset('js/bootstrap.min.js')}}"></script>
-	
-	<script src="{{asset('js/moment.js')}}"></script>
-	
-	<script src="{{asset('js/bootstrap-datetimepicker.min.js')}}"></script>
-	
-	<script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
-	
-	<script src="{{asset('js/jquery.stellar.min.js')}}"></script>
-
-	<script src="{{asset('js/jquery.flexslider-min.js')}}"></script>
-	
-	<!--<script>
-		$(function () {
-	       $('#date').datetimepicker();
-	   });
-	   
-			
-	</script>-->
-
-<script src="{{asset('js/main.js')}}"></script>
-<script src="{{asset('js/jquery-1.7.1.min.js')}}"></script>
-<script src="{{asset('js/bootstrap-transition.js')}}"></script>
-<script src="{{asset('js/bootstrap-carousel.js')}}"></script>
-<script src="{{asset('js/bootstrap-alert.js')}}"></script>
-
-
-<script src="{{asset('js/bootstrap-modal.js')}}"></script>
-<script src="{{asset('js/bootstrap-dropdown.js')}}"></script>
-<script src="{{asset('js/bootstrap-scrollspy.js')}}"></script>
-<script src="{{asset('js/bootstrap-tab.js')}}"></script>
-
-<script src="{{asset('js/bootstrap-tooltip.js')}}"></script>
-<script src="{{asset('js/bootstrap-popover.js')}}"></script>
-<script src="{{asset('js/bootstrap-button.js')}}"></script>
-<script src="{{asset('js/bootstrap-collapse.js')}}"></script>
-
-<script src="{{asset('js/bootstrap-typeahead.js')}}"></script>
-<script src="{{asset('js/jquery-ui-1.8.18.custom.min.js')}}"></script>
-<script src="{{asset('js/jquery.smooth-scroll.min.js')}}"></script>
-<script src="{{asset('js/lightbox.js')}}"></script>
-
-<link href="{{asset('css/estilo.css')}}" rel="stylesheet" type="text/css">
-
-
-
-	<script src="{{asset('js/jquery.min.js')}}"></script>
-	
-	<script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
-	
-	<script src="{{asset('js/bootstrap.min.js')}}"></script>
-	
-	<script src="{{asset('js/moment.js')}}"></script>
-	
-	<script src="{{asset('js/bootstrap-datetimepicker.min.js')}}"></script>
-	
-	<script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
-	
-	<script src="{{asset('js/jquery.stellar.min.js')}}"></script>
-
-	<script src="{{asset('js/jquery.flexslider-min.js')}}"></script>
-	
-	<!--<script>
-		$(function () {
-	       $('#date').datetimepicker();
-	   });
-	   
-			
-	</script>-->
 
 <script>
 $('.carousel').carousel({
   interval: 5000
 })
 </script>
+
+<link href="{{asset('css/estilo.css')}}"
+rel="stylesheet" type="text/css">
+
+
+
+	<script src="{{asset('js/jquery.min.js')}}"></script>
+	
+	<script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
+	
+	<script src="{{asset('js/bootstrap.min.js')}}"></script>
+	
+	<script src="{{asset('js/moment.js')}}"></script>
+	
+	<script src="{{asset('js/bootstrap-datetimepicker.min.js')}}"></script>
+	
+	<script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
+	
+	<script src="{{asset('js/jquery.stellar.min.js')}}"></script>
+
+	<script src="{{asset('js/jquery.flexslider-min.js')}}"></script>
+	<script>
+		$(function () {
+	       $('#date').datetimepicker();
+	   });
+	   
+			
+	</script>
+	<script src="{{asset('js/main.js')}}"></script>
 
 </body>
 </html>
