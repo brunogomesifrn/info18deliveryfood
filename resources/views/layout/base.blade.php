@@ -19,7 +19,7 @@
 	
 	<link rel="stylesheet" href="{{asset('css/animate.css')}}">
 
-	<link rel="stylesheet" href="{{asset('css/estilo (2).css')}}">
+	<link rel="stylesheet" href="{{asset('css/estilo.css')}}">
 	
 	<link rel="stylesheet" href="{{asset('css/simple-line-icons.css')}}">
 	
@@ -27,7 +27,7 @@
 	
 	<link rel="stylesheet" href="{{asset('css/flexslider.css')}}">
 
-	<link rel="stylesheet" href="{{asset('css/bootstrap (2).css')}}">
+	<link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
 
 	<link rel="stylesheet" href="{{asset('css/style.css')}}">
 	
@@ -39,7 +39,7 @@
 	
 	<link href="{{asset('css/bootstrap1.css')}}" rel="stylesheet">
 	
-	<script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
+	<script src="js/modernizr-2.6.2.min.js"></script>
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
@@ -393,26 +393,26 @@ window.onclick = function(event) {
 
 
 
-<!--<script src="{{asset('js/jquery-1.7.1.min.js')}}"></script>-->
-<!--<script src="{{asset('js/bootstrap-transition.js')}}"></script>-->
-<!--<script src="{{asset('js/bootstrap-carousel.js')}}"></script>-->
-<script src="{{asset('js/bootstrap-alert.js')}}"></script>
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/bootstrap-transition.js"></script>
+<script src="js/bootstrap-carousel.js"></script>
+<script src="js/bootstrap-alert.js"></script>
 
 
-<script src="{{asset('js/bootstrap-modal.js')}}"></script>
-<script src="{{asset('js/bootstrap-dropdown.js')}}"></script>
-<script src="{{asset('js/bootstrap-scrollspy.js')}}"></script>
-<script src="{{asset('js/bootstrap-tab.js')}}"></script>
+<script src="js/bootstrap-modal.js"></script>
+<script src="js/bootstrap-dropdown.js"></script>
+<script src="js/bootstrap-scrollspy.js"></script>
+<script src="js/bootstrap-tab.js"></script>
 
-<script src="{{asset('js/bootstrap-tooltip.js')}}"></script>
-<script src="{{asset('js/bootstrap-popover.js')}}"></script>
-<script src="{{asset('js/bootstrap-button.js')}}"></script>
-<script src="{{asset('js/bootstrap-collapse.js')}}"></script>
+<script src="js/bootstrap-tooltip.js"></script>
+<script src="js/bootstrap-popover.js"></script>
+<script src="js/bootstrap-button.js"></script>
+<script src="js/bootstrap-collapse.js"></script>
 
-<script src="{{asset('js/bootstrap-typeahead.js')}}"></script>
-<script src="{{asset('js/jquery-ui-1.8.18.custom.min.js')}}"></script>
-<script src="{{asset('js/jquery.smooth-scroll.min.js')}}"></script>
-<script src="{{asset('js/lightbox.js')}}"></script>
+<script src="js/bootstrap-typeahead.js"></script>
+<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
+<script src="js/jquery.smooth-scroll.min.js"></script>
+<script src="js/lightbox.js"></script>
 
 
 
@@ -422,26 +422,23 @@ $('.carousel').carousel({
 })
 </script>
 
-<link href="{{asset('css/estilo.css')}}"
-rel="stylesheet" type="text/css">
 
+	<script src="js/jquery.min.js"></script>
+	
+	<script src="js/jquery.easing.1.3.js"></script>
+	
+	<script src="js/bootstrap.min.js"></script>
+	
+	<script src="js/moment.js"></script>
+	
+	<script src="js/bootstrap-datetimepicker.min.js"></script>
+	
+	<script src="js/jquery.waypoints.min.js"></script>
+	
+	<script src="js/jquery.stellar.min.js"></script>
 
+	<script src="js/jquery.flexslider-min.js"></script>
 
-	<script src="{{asset('js/jquery.min.js')}}"></script>
-	
-	<script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
-	
-	<script src="{{asset('js/bootstrap.min.js')}}"></script>
-	
-	<script src="{{asset('js/moment.js')}}"></script>
-	
-	<script src="{{asset('js/bootstrap-datetimepicker.min.js')}}"></script>
-	
-	<script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
-	
-	<script src="{{asset('js/jquery.stellar.min.js')}}"></script>
-
-	<script src="{{asset('js/jquery.flexslider-min.js')}}"></script>
 	<script>
 		$(function () {
 	       $('#date').datetimepicker();
@@ -449,7 +446,7 @@ rel="stylesheet" type="text/css">
 	   
 			
 	</script>
-	<script src="{{asset('js/main.js')}}"></script>
+	<script src="js/main.js"></script>
 
 </body>
 </html>
