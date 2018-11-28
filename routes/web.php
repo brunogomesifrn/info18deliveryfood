@@ -12,12 +12,9 @@
 */
 
 
-
-
 Route::get('/', function () {
     return view('inicio');
 });
-
 
 
 Route::get('/comidas', function () {

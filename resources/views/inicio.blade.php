@@ -2,6 +2,8 @@
 	@extends('layout.base')
 	
 	@section('conteudo')
+
+	
 	<div class="row p1" style="padding-top: 50px">
 	<div class="col-md-12">
 	

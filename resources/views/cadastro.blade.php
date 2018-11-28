@@ -8,8 +8,8 @@
 	
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel= "stylesheet" href="{{asset('css/estilo.css')}}"/>
-<link href="{{asset('css/bootstrap.css')}}" rel="stylesheet"/>
+<link rel= "stylesheet" href="{{asset('css/estilo_cadastro.css')}}"/>
+<link href="{{asset('css/bootstrap_cadastro.css')}}" rel="stylesheet"/>
 
 
 <script src= "js/java.js"> </script>
@@ -34,7 +34,7 @@
 						
 						<p class="p10 p3">  Para vender ou comprar cadastre-se inserindo os dados abaixo: </p> <br/>
 						
-						<form action="php/cadastrando.php" method="post" name="formCadastro">
+						<form action="{{asset('php/cadastrando.blade.php')}}" method="post" name="formCadastro">
 						
 						<div class="form-group">
 						
