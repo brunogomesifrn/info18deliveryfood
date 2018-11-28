@@ -227,32 +227,6 @@ span.psw {
 
 <body>
 
-
-
-
-<!--CABEÇALHO -->
-<div class="container">
-
-	<div class="row" style="padding-top: px">
-	<div class="col-md-2 paragrafos1">
-
-		&#9993; deliveryfood.com.br 
-
-	</div>
-	
-	<div class="col-md-3 paragrafos1" style="margin-left: 0px;">
-
-	 &#9743; (84) 9999-9999
-	
-	</div>
-	
-	<div class="col-md-7" style="text-align: right">
-
-	 <a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="paragrafos1"> LOGIN</a>
-	
-	</div>
-	</div>
-	
 		
 <div id="id01" class="modal">
   
@@ -284,7 +258,30 @@ window.onclick = function(event) {
     }
 }
 </script>
-				
+			
+
+
+	<!--CABEÇALHO -->
+	<div class="container">
+
+	<div class="row" style="padding-top: 0px">
+	<div class="col-md-3 paragrafos1">
+
+	<p>&#9993; deliveryfood.com.br      &#9743; (84) 9999-9999 </p>
+
+	</div>
+	</div>
+	
+	<div class="col-md-7" style="text-align: right">
+
+	 <a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="paragrafos1"> LOGIN</a>
+	
+	</div>
+	
+
+	
+
+
 	<div class="container" style="">
 	
 	<div class="row" style="">
@@ -340,7 +337,7 @@ window.onclick = function(event) {
 					  
 					  
 					
-					  <a href="/inicio" class="active">Início</a>
+					  <a href="/" class="active">Início</a>
 					  <a href="/comidas">Buscar produtos</a>
 					  <a href="/somos" class="">Quem somos</a>
 					  <a href="/cadastro">Cadastrar-se</a>
@@ -383,7 +380,7 @@ window.onclick = function(event) {
 			
 		</div>
 
-
+</div>
 
 
 
