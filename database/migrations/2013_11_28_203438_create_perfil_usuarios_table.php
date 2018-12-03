@@ -15,6 +15,7 @@ class CreatePerfilUsuariosTable extends Migration
     {
         Schema::create('perfil_usuarios', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('nome');
             $table->timestamps();
         });
     }

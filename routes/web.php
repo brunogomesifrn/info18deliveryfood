@@ -41,6 +41,20 @@ Route::get('/cadastro', function () {
 });
 
 
+Route::get('/autenticacao', function () {
+    return view('tela_login');
+})->name('autenticacao');
+
+
+Route::get('/perfil', function () {
+    return view('perfil');
+})->middleware('auth');
+
+Route::get('/desconectar', function () {
+	Auth::logout();
+    return view('inicio');
+});
+
 
 Auth::routes();
 

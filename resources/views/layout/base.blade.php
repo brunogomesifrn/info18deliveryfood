@@ -233,8 +233,12 @@ span.psw {
   <form class="modal-content animate" action="php/recebeLogin.php">
    
    <div class="imgcontainer">
+   		
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+       
+      	
        <h1 style="text-align: center; font-family: Arial; padding-top: 25px; padding-bottom: 15px"> LOGIN </h1>
+     
     </div>
     
 
@@ -267,14 +271,23 @@ window.onclick = function(event) {
 	<div class="row" style="padding-top: 0px">
 	<div class="col-md-3 paragrafos1">
 
-	<p>&#9993; deliveryfood.com.br      &#9743; (84) 9999-9999 </p>
+	<p>&#9993; deliveryfood.com.br  &#9743; (84) 9999-9999 </p>
 
 	</div>
 	</div>
 	
 	<div class="col-md-7" style="text-align: right">
 
-	 <a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="paragrafos1"> LOGIN</a>
+ 		@guest
+       <!--<a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="paragrafos1"> LOGIN</a>-->
+       <a href="/autenticacao"><h1 style="width:auto;" class="paragrafos1"> LOGIN </h1></a>
+       @endguest
+
+      	@auth
+       <a href="/desconectar"><h1 style="width:auto;" class="paragrafos1"> LOGOUT </h1></a>
+       @endauth
+
+	 
 	
 	</div>
 	
