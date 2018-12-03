@@ -28,7 +28,7 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    function perfil(){
+    function perfil_usuario(){
         return $this->belongsTo('App\Perfil_usuario');
     }
 }

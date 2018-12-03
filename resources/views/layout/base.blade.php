@@ -284,11 +284,11 @@ window.onclick = function(event) {
        @endguest
 
       	@auth
+       <a href="/perfil"><h1 style="width:auto;" class="paragrafos1"> PERFIL </h1></a>
        <a href="/desconectar"><h1 style="width:auto;" class="paragrafos1"> LOGOUT </h1></a>
        @endauth
 
 	 
-	
 	</div>
 	
 
@@ -354,7 +354,6 @@ window.onclick = function(event) {
 					  <a href="/comidas">Buscar produtos</a>
 					  <a href="/somos" class="">Quem somos</a>
 					  <a href="/cadastro">Cadastrar-se</a>
-					   <a href="/orcamento">Orçamento</a>
 					  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
 					<i class="fa fa-bars"></i>
 						</a>
