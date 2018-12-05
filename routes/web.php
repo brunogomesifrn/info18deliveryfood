@@ -12,6 +12,11 @@
 */
 
 
+Route::get('/', function () {
+    return view('inicio');
+});
+
+
 Route::get('/inicio', function () {
     return view('inicio');
 });
@@ -22,13 +27,9 @@ Route::get('/comidas', function () {
 });
 
 
-
-
 Route::get('/orcamento', function () {
     return view('orcamento');
 });
-
-
 
 
 Route::get('/somos', function () {
@@ -40,6 +41,29 @@ Route::get('/cadastro', function () {
     return view('cadastro');
 });
 
+
+Route::get('/autenticacao', function () {
+    return view('tela_login');
+})->name('autenticacao');
+
+
+Route::get('/perfil', function () {
+    return view('perfil');
+})->middleware('auth');
+
+
+Route::get('/desconectar', function () {
+	Auth::logout();
+    return view('inicio');
+});
+
+Route::get('/categorias_produtos', 'Categoria_ProdutoControlador@index')->middleware('auth');
+Route::get('/categorias_produtos_cadastrar', 'Categoria_ProdutoControlador@create')->middleware('auth');
+Route::post('/categorias_produtos_salvar', 'Categoria_ProdutoControlador@store')->middleware('auth');
+
+Route::get('/perfis_usuarios', 'Perfil_UsuarioControlador@index')->middleware('auth');
+Route::get('/perfis_usuarios_cadastrar', 'Perfil_UsuarioControlador@create')->middleware('auth');
+Route::post('/perfis_usuarios_salvar', 'Perfil_UsuarioControlador@store')->middleware('auth');
 
 
 Auth::routes();

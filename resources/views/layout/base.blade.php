@@ -19,7 +19,11 @@
 	
 	<link rel="stylesheet" href="{{asset('css/animate.css')}}">
 
+
+	<link rel="stylesheet" href="{{asset('css/estilo (2).css')}}">
+
 	<link rel="stylesheet" href="{{asset('css/estilo.css')}}">
+
 	
 	<link rel="stylesheet" href="{{asset('css/simple-line-icons.css')}}">
 	
@@ -27,7 +31,11 @@
 	
 	<link rel="stylesheet" href="{{asset('css/flexslider.css')}}">
 
+
+	<link rel="stylesheet" href="{{asset('css/bootstrap (2).css')}}">
+
 	<link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
+
 
 	<link rel="stylesheet" href="{{asset('css/style.css')}}">
 	
@@ -39,7 +47,7 @@
 	
 	<link href="{{asset('css/bootstrap1.css')}}" rel="stylesheet">
 	
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/modernizr-2.6.2.min.js"> </script>
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
@@ -227,14 +235,46 @@ span.psw {
 
 <body>
 
+
+
+
+
+<!--CABEÇALHO -->
+<div class="container">
+
+	<div class="row" style="padding-top: px">
+	<div class="col-md-2 paragrafos1">
+
+		&#9993; deliveryfood.com.br 
+
+	</div>
+	
+	<div class="col-md-3 paragrafos1" style="margin-left: 0px;">
+
+	 &#9743; (84) 9999-9999
+	
+	</div>
+	
+	<div class="col-md-7" style="text-align: right">
+
+	 <a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="paragrafos1"> LOGIN</a>
+	
+	</div>
+	</div>
+	
+
 		
 <div id="id01" class="modal">
   
   <form class="modal-content animate" action="php/recebeLogin.php">
    
    <div class="imgcontainer">
+   		
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+       
+      	
        <h1 style="text-align: center; font-family: Arial; padding-top: 25px; padding-bottom: 15px"> LOGIN </h1>
+     
     </div>
     
 
@@ -258,29 +298,42 @@ window.onclick = function(event) {
     }
 }
 </script>
+
 			
 
 
 	<!--CABEÇALHO -->
 	<div class="container">
+				<div class="col-md-3 paragrafos1" style="width:auto;">
 
-	<div class="row" style="padding-top: 0px">
-	<div class="col-md-3 paragrafos1">
+				<p>&#9993; deliveryfood.com.br  <!--&#9743; (84) 9999-9999 </p>-->
 
-	<p>&#9993; deliveryfood.com.br      &#9743; (84) 9999-9999 </p>
+			</div>
 
-	</div>
-	</div>
+				<div class="col-md-3 paragrafos1" style="width:auto;">
+
+				<p>&#9993; deliveryfood.com.br
+
+			</div>
+	
 	
 	<div class="col-md-7" style="text-align: right">
 
-	 <a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="paragrafos1"> LOGIN</a>
-	
+ 		@guest
+       <!--<a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="paragrafos1"> LOGIN</a>-->
+       <a href="/autenticacao"><h1 style="width:auto;" class="paragrafos1"> LOGIN </h1></a>
+       @endguest
+
+      	@auth
+       <a href="/perfil"><h1 style="width:auto;" class="paragrafos1"> PERFIL </h1></a>
+       <a href="/desconectar"><h1 style="width:auto;" class="paragrafos1"> LOGOUT </h1></a>
+       @endauth
+
+	 
 	</div>
 	
 
 	
-
 
 	<div class="container" style="">
 	
@@ -337,11 +390,18 @@ window.onclick = function(event) {
 					  
 					  
 					
+
+					  <a href="inicio.php" class="active">Início</a>
+					  <a href="comidas.php">Buscar produtos</a>
+					  <a href="somos.php" class="">Quem somos</a>
+					  <a href="cadastro.php">Cadastrar-se</a>
+					   <a href="orcamento.php">Orçamento</a>
+
 					  <a href="/" class="active">Início</a>
 					  <a href="/comidas">Buscar produtos</a>
 					  <a href="/somos" class="">Quem somos</a>
 					  <a href="/cadastro">Cadastrar-se</a>
-					   <a href="/orcamento">Orçamento</a>
+
 					  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
 					<i class="fa fa-bars"></i>
 						</a>
@@ -390,10 +450,18 @@ window.onclick = function(event) {
 
 
 
+
+
+<!--<script src="{{asset('js/jquery-1.7.1.min.js')}}"></script>-->
+<!--<script src="{{asset('js/bootstrap-transition.js')}}"></script>-->
+<!--<script src="{{asset('js/bootstrap-carousel.js')}}"></script>-->
+<script src="{{asset('js/bootstrap-alert.js')}}"></script>
+
 <script src="js/jquery-1.7.1.min.js"></script>
 <script src="js/bootstrap-transition.js"></script>
 <script src="js/bootstrap-carousel.js"></script>
 <script src="js/bootstrap-alert.js"></script>
+
 
 
 <script src="js/bootstrap-modal.js"></script>
@@ -411,6 +479,18 @@ window.onclick = function(event) {
 <script src="js/jquery.smooth-scroll.min.js"></script>
 <script src="js/lightbox.js"></script>
 
+
+
+
+
+<script>
+$('.carousel').carousel({
+  interval: 5000
+})
+</script>
+
+<link href="{{asset('css/estilo.css')}}"
+rel="stylesheet" type="text/css">
 
 
 <script>
@@ -434,7 +514,11 @@ $('.carousel').carousel({
 	
 	<script src="js/jquery.stellar.min.js"></script>
 
+
+	<script src="{{asset('js/jquery.flexslider-min.js')}}"></script>
+
 	<script src="js/jquery.flexslider-min.js"></script>
+
 
 	<script>
 		$(function () {
@@ -443,7 +527,11 @@ $('.carousel').carousel({
 	   
 			
 	</script>
+
+	<script src="{{asset('js/main.js')}}"></script>
+
 	<script src="js/main.js"></script>
+
 
 </body>
 </html>

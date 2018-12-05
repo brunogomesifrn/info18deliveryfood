@@ -19,6 +19,12 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('endereco');
+            $table->string('cpf',11);
+
+            $table->integer('perfil_usuario_id')->unsigned()->default(1);
+            $table->foreign('perfil_usuario_id')->references('id')->on('perfil_usuarios');
+
             $table->rememberToken();
             $table->timestamps();
         });
