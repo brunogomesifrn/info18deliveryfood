@@ -1,9 +1,7 @@
-﻿
-	@extends('layout.base')
-	
-	@section('conteudo')
+@extends('layouts.app')
 
-	<div class="container">
+@section('content')
+<div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -22,34 +20,6 @@
                                 @if ($errors->has('name'))
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $errors->first('name') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="cpf" class="col-md-4 col-form-label text-md-right">{{ __('CPF') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="cpf" maxlength="11" type="text" class="form-control{{ $errors->has('cpf') ? ' is-invalid' : '' }}" name="cpf" value="{{ old('cpf') }}" required autofocus>
-
-                                @if ($errors->has('cpf'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('cpf') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="endereco" class="col-md-4 col-form-label text-md-right">{{ __('Endereço') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="endereco" type="text" class="form-control{{ $errors->has('endereco') ? ' is-invalid' : '' }}" name="endereco" value="{{ old('endereco') }}" required autofocus>
-
-                                @if ($errors->has('endereco'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('endereco') }}</strong>
                                     </span>
                                 @endif
                             </div>
@@ -104,6 +74,4 @@
         </div>
     </div>
 </div>
-	
-	@endsection
-	
+@endsection
