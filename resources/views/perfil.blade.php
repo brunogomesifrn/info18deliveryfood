@@ -8,9 +8,9 @@
 <p>Meus Produtos</p>
 <p>Meus Pedidos</p>
 
-@if(Auth::user()->perfil->id != 1)
-<p>Configurar Perfis de Usuário</p>
-<p>Configurar Categoria de Produtos</p>
+@if(Auth::user()->perfil_usuario->id != 1)
+<p><a href="perfis_usuarios">Configurar Perfis de Usuário</a></p>
+<p><a href="categoria_produtos">Configurar Categoria de Produtos</a></p>
 @endif
 
 @endsection
