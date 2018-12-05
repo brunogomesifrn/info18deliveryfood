@@ -255,16 +255,16 @@ span.psw {
 	
 	</div>
 	
-	<div class="col-md-7" style="text-align: right">
+	<!--<div class="col-md-7" style="text-align: right">
 
 	 <a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="paragrafos1"> LOGIN</a>
 	
 	</div>
-	</div>
+	</div>-->
 	
 
 		
-<div id="id01" class="modal">
+<!--<div id="id01" class="modal">
   
   <form class="modal-content animate" action="php/recebeLogin.php">
    
@@ -297,26 +297,13 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-</script>
+</script>-->
 
 			
 
 
 	<!--CABEÇALHO -->
 	<div class="container">
-				<div class="col-md-3 paragrafos1" style="width:auto;">
-
-				<p>&#9993; deliveryfood.com.br  <!--&#9743; (84) 9999-9999 </p>-->
-
-			</div>
-
-				<div class="col-md-3 paragrafos1" style="width:auto;">
-
-				<p>&#9993; deliveryfood.com.br
-
-			</div>
-	
-	
 	<div class="col-md-7" style="text-align: right">
 
  		@guest
@@ -389,13 +376,6 @@ window.onclick = function(event) {
 		<div class="topnav" id="myTopnav">
 					  
 					  
-					
-
-					  <a href="inicio.php" class="active">Início</a>
-					  <a href="comidas.php">Buscar produtos</a>
-					  <a href="somos.php" class="">Quem somos</a>
-					  <a href="cadastro.php">Cadastrar-se</a>
-					   <a href="orcamento.php">Orçamento</a>
 
 					  <a href="/" class="active">Início</a>
 					  <a href="/comidas">Buscar produtos</a>
