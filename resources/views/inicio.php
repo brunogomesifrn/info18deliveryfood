@@ -18,13 +18,10 @@
 	</div>
 	
 	<div class="col-md-9 paragrafos">
-	 <p>  texto texto texto texto 
-	 texto texto texto texto texto texto 
-	 texto texto  texto texto  texto texto  
-	 texto texto  texto texto texto texto texto texto texto texto texto 
-	 texto texto texto texto texto texto 
-	 texto texto  texto texto  texto texto  
-	 texto texto  texto texto texto texto texto 
+	 <p>  
+
+	 Delivery Food é uma empresa que, através de um site, oferece aos cozinheiros e confeiteiros de Canguaretama a divulgação de seu trabalho e a encomenda online por parte dos consumidores. 
+	 
 	 </p>
 
 	
@@ -36,23 +33,32 @@
 		<div class="row text-center fh5co-heading">
 		<div class="col-md-12">
 	
-		<h2 style="padding-top: 10px; font-family: Arial; color: #1C1C1C" class="p3 text-center">Visão</h2>
+		<h2 style="padding-top: 10px; font-family: Arial; color: #1C1C1C" class="p3 text-center">Missão</h2>
 		</div>
 		 
 		
 	<div class="col-md-9 paragrafos">
-	 <p style="padding-left: 20px"> texto texto texto texto 
-	 texto texto texto texto texto texto 
-	 texto texto  texto texto  texto texto  
-	 texto texto  texto texto texto texto texto 
-	 texto texto texto texto 
-	 texto texto texto texto texto texto 
-	 texto texto  texto texto  texto texto  
-	 texto texto  texto texto texto texto texto 
-	 texto texto texto texto texto texto. 
+	 <p style="padding-left: 20px"> 
+	 	oferecer divulgação do trabalho de confeiteiros e cozinheiros, em geral, que residem em Canguaretama, além de proporcionar mais comodidade aos moradores locais na hora de fazer encomendas de alimentos de seguimento festivo.
 	 </p>
 	
 	</div>
+	</div>
+	
+
+	<div class="row text-center fh5co-heading">
+		<div class="col-md-12">
+	
+		<h2 style="padding-top: 10px; font-family: Arial; color: #1C1C1C" class="p3 text-center">Visão</h2>
+		</div>
+		
+	<div class="col-md-9 paragrafos">
+	 <p style="padding-left: 20px">  
+	ser veículo importante, a nível regional, na difusão de trabalhos de qualidade de profissionais culinários.
+	 </p>
+	
+	</div>
+	
 	</div>
 	
 
@@ -63,21 +69,15 @@
 		</div>
 		
 	<div class="col-md-9 paragrafos">
-	 <p style="padding-left: 20px">  texto texto texto texto 
-	 texto texto texto texto texto texto 
-	 texto texto  texto texto  texto texto  
-	 texto texto  texto texto texto texto texto 
-	 texto texto texto texto 
-	 texto texto texto texto texto texto 
-	 texto texto  texto texto  texto texto  
-	 texto texto  texto texto texto texto texto 
-	 texto texto texto texto texto texto. 
+	 <p style="padding-left: 20px">  
+	 	eficácia, qualidade, preços acessíveis, confiabilidade, segurança, respeito e comprometimento com os clientes.
 	 </p>
 	
 	</div>
 	
 	</div>
-	
+
+
 
 
 	
