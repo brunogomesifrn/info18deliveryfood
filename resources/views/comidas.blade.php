@@ -44,7 +44,7 @@
 		<div class="thumbnail" width="90px"> 
 									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem" > </div>
 									 <div class="caption  paragrafos">
-									  bbbbbbbbbbbbbbbbb
+									  Rosquinha Colorida
  									 </div>
 		
 		</div>
@@ -53,7 +53,7 @@
 		<div class="thumbnail" width="90px"> 
 									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
-									  bbbbbbbbbbbbbbbbb
+									  Pão de mel com chocolate branco
  									 </div>
 		</div>
 		
@@ -62,7 +62,7 @@
 		<div class="thumbnail" width="90px"> 
 									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
-									  bbbbbbbbbbbbbbbbb
+									 Biscoito de corujas e corações
  									 </div>
 		</div>
 		
@@ -71,7 +71,7 @@
 		<div class="thumbnail" width="90px"> 
 									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption">
-									  bbbbbbbbbbbbbbbbb
+									  Barquinha de chocolates com docinhos
  									 </div>
 		</div>
 		
@@ -88,7 +88,7 @@
 		<div class="thumbnail" width="90px"> 
 									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem" > </div>
 									 <div class="caption  paragrafos">
-									  bbbbbbbbbbbbbbbbb
+									 Mini brownies
  									 </div>
 		
 		</div>
@@ -97,7 +97,7 @@
 		<div class="thumbnail" width="90px"> 
 									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
-									  bbbbbbbbbbbbbbbbb
+									  Bombom gelado
  									 </div>
 		</div>
 		
@@ -106,7 +106,7 @@
 		<div class="thumbnail" width="90px"> 
 									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
-									  bbbbbbbbbbbbbbbbb
+									Mini bolo com brigadeiro
  									 </div>
 		</div>
 		
@@ -115,7 +115,7 @@
 		<div class="thumbnail" width="90px"> 
 									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption paragrafos">
-									  bbbbbbbbbbbbbbbbb
+									 Potinhos de chococates recheados
  									 </div>
 		</div>
 		
@@ -132,7 +132,7 @@
 		<div class="thumbnail" width="90px"> 
 									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem" > </div>
 									 <div class="caption  paragrafos">
-									  bbbbbbbbbbbbbbbbb
+									  Bolo de brigadeiro
  									 </div>
 		
 		</div>
@@ -141,7 +141,7 @@
 		<div class="thumbnail" width="90px"> 
 									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
-									  bbbbbbbbbbbbbbbbb
+									  Bolo formigueiro
  									 </div>
 		</div>
 		
@@ -150,7 +150,7 @@
 		<div class="thumbnail" width="90px"> 
 									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
-									  bbbbbbbbbbbbbbbbb
+									 Bolo pão-de-mel
  									 </div>
 		</div>
 		
@@ -159,7 +159,7 @@
 		<div class="thumbnail" width="90px"> 
 									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
-									  bbbbbbbbbbbbbbbbb
+									 Bolo de coco
  									 </div>
 		</div>
 		
@@ -176,7 +176,7 @@
 		<div class="thumbnail" width="90px"> 
 									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem" > </div>
 									 <div class="caption  paragrafos">
-									  bbbbbbbbbbbbbbbbb
+									Pastel de bacalhau
  									 </div>
 		
 		</div>
@@ -185,7 +185,7 @@
 		<div class="thumbnail" width="90px"> 
 									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
-									  bbbbbbbbbbbbbbbbb
+									  Coxinha veganha congeladda
  									 </div>
 		</div>
 		
@@ -194,7 +194,7 @@
 		<div class="thumbnail" width="90px"> 
 									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
-									  bbbbbbbbbbbbbbbbb
+									  Quibe de Quinoa
  									 </div>
 		</div>
 		
@@ -203,7 +203,7 @@
 		<div class="thumbnail" width="90px"> 
 									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
-									  bbbbbbbbbbbbbbbbb
+									 Salgado Mini de frango com brocolis e couve flor congelado
  									 </div>
 		</div>
 		
