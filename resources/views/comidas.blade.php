@@ -104,7 +104,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
+									 <img src="images/trufa-de-chocolate-branco-com-limão.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
 									Mini bolo com brigadeiro
  									 </div>
@@ -113,7 +113,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
+									 <img src="images/shutterstock_51741550.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption paragrafos">
 									 Potinhos de chococates recheados
  									 </div>
@@ -130,7 +130,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem" > </div>
+									 <img src="images/sub-buzz-17183-1507668330-6.jpg" class="img-rounded" alt="Paisagem" > </div>
 									 <div class="caption  paragrafos">
 									  Bolo de brigadeiro
  									 </div>
@@ -139,7 +139,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
+									 <img src="images/sub-buzz-29427-1507669388-1.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
 									  Bolo formigueiro
  									 </div>
@@ -157,7 +157,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
+									 <img src="images/sub-buzz-31852-1507670108-1.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
 									 Bolo de coco
  									 </div>
@@ -183,7 +183,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="salgados-de-bisciuit-coxinha-de-biscuit.jpg" class="img-rounded" alt="Paisagem"> </div>
+									 <img src="images/salgados-de-bisciuit-coxinha-de-biscuit.jpg" class="img-rounded" alt="Coxinha veganha congeladda"> </div>
 									 <div class="caption  paragrafos">
 									  Coxinha veganha congeladda
  									 </div>
