@@ -42,7 +42,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/vovo-palmirinha-rosquinha-colorida-1-351x185.jpg" class="img-rounded" alt=" Rosquinha Colorida" > </div>
+									 <img src="images/multi-rosquinhas-coloridas_1388-15.jpg" class="img-rounded" alt=" Rosquinha Colorida" > </div>
 									 <div class="caption  paragrafos">
 									  Rosquinha Colorida
  									 </div>
@@ -51,7 +51,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/vovo-palmirinha-pao-de-mel-com-chocolate-branco-1-351x185.jpg" class="img-rounded" alt=" Pão de mel com chocolate branco"> </div>
+									 <img src="images/receita-pao-mel-recheio-brigadeiro-branco.jpg" class="img-rounded" alt=" Pão de mel com chocolate branco"> </div>
 									 <div class="caption  paragrafos">
 									  Pão de mel com chocolate branco
  									 </div>

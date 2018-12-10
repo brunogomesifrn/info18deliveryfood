@@ -107,7 +107,7 @@
 								<li>
 									<div class="fh5co-food-desc">
 										<figure>
-											<img src="images/header.jpg" class="img-responsive" alt="">
+											<img src="images/bolo-homem-aranha-bolos.jpg" class="img-responsive" alt="">
 										</figure>
 										<div>
 											<h3 class="p5">										Bolo Homem Aranha
@@ -126,7 +126,7 @@
 								<li>
 									<div class="fh5co-food-desc">
 										<figure>
-											<img src="images/header.jpg" class="img-responsive" alt="">
+											<img src="images/bolo-cenografico-mulher-maravilha-sem-emenda.jpg" class="img-responsive" alt="">
 										</figure>
 										<div>
 										<h3 class="p5">
@@ -151,7 +151,7 @@
 								<li>
 									<div class="fh5co-food-desc">
 										<figure>
-											<img src="images/header.jpg" class="img-responsive" alt="">
+											<img src="images/salgados-de-bisciuit-coxinha-de-biscuit.jpg" class="img-responsive" alt="">
 										</figure>
 										<div>
 											<h3 class="p5">
@@ -170,7 +170,7 @@
 								<li>
 									<div class="fh5co-food-desc">
 										<figure>
-											<img src="images/header.jpg" class="img-responsive" alt="">
+											<img src="images/kit-cafe-da-manha - topper (1).jpg" class="img-responsive" alt="">
 										</figure>
 										<div>
 											<h3 class="p5">Kit Café da manhã com poemas</h3>
