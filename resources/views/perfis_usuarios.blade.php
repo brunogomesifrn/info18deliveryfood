@@ -8,7 +8,7 @@
 
 @foreach($perfil as $p)
 
-<p> {{$p->nome}} | EDITAR | REMOVER</p>
+<p> {{$p->nome}} | <a href="/editar_perfis/{{$c->id}}">EDITAR</a> | <a href="/remover_perfis/{{$c->id}}">REMOVER</a> </p>
 
 @endforeach
 	
