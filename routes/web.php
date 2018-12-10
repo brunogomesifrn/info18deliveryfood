@@ -17,11 +17,6 @@ Route::get('/inicio', function () {
 });
 
 
-Route::get('/inicio', function () {
-    return view('inicio');
-});
-
-
 Route::get('/comidas', function () {
     return view('comidas');
 });
@@ -67,6 +62,9 @@ Route::post('/categorias_produtos_atualizar/{id}', 'Categoria_ProdutoControlador
 Route::get('/perfis_usuarios', 'Perfil_UsuarioControlador@index')->middleware('auth');
 Route::get('/perfis_usuarios_cadastrar', 'Perfil_UsuarioControlador@create')->middleware('auth');
 Route::post('/perfis_usuarios_salvar', 'Perfil_UsuarioControlador@store')->middleware('auth');
+Route::get('/remover_perfis/{id}', 'Perfil_UsuarioControlador@destroy')->middleware('auth');
+Route::get('/editar_perfis/{id}', 'Perfil_UsuarioControlador@edit')->middleware('auth');
+Route::post('/atualizar_perfis/{id}', 'Perfil_UsuarioControlador@update')->middleware('auth');
 
 
 Route::get('/listagem_de_produtos', 'ProdutosControlador@index')->middleware('auth');
