@@ -64,7 +64,8 @@ class Categoria_ProdutoControlador extends Controller
      */
     public function edit($id)
     {
-        //
+        $categoria = Categoria_produto::find($id);
+        return view('categorias_produtos_cadastrar', compact('categoria'));
     }
 
     /**
@@ -76,7 +77,12 @@ class Categoria_ProdutoControlador extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $categoria = Categoria_produto::find($id);
+        $nome = $request->input('nome');
+        $categoria->nome = $nome ;
+        $categoria->save();
+
+        return redirect("/categorias_produtos");
     }
 
     /**
@@ -87,6 +93,9 @@ class Categoria_ProdutoControlador extends Controller
      */
     public function destroy($id)
     {
-        //
+        $categoria = Categoria_produto::find($id);
+        $categoria->delete();
+
+        return redirect("/categorias_produtos");
     }
 }

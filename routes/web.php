@@ -60,6 +60,9 @@ Route::get('/desconectar', function () {
 Route::get('/categorias_produtos', 'Categoria_ProdutoControlador@index')->middleware('auth');
 Route::get('/categorias_produtos_cadastrar', 'Categoria_ProdutoControlador@create')->middleware('auth');
 Route::post('/categorias_produtos_salvar', 'Categoria_ProdutoControlador@store')->middleware('auth');
+Route::get('/categorias_produtos_remover/{id}', 'Categoria_ProdutoControlador@destroy')->middleware('auth');
+Route::get('/categorias_produtos_editar/{id}', 'Categoria_ProdutoControlador@edit')->middleware('auth');
+Route::post('/categorias_produtos_atualizar/{id}', 'Categoria_ProdutoControlador@update')->middleware('auth');
 
 Route::get('/perfis_usuarios', 'Perfil_UsuarioControlador@index')->middleware('auth');
 Route::get('/perfis_usuarios_cadastrar', 'Perfil_UsuarioControlador@create')->middleware('auth');

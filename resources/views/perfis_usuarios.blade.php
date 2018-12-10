@@ -12,5 +12,6 @@
 
 @endforeach
 	
-	@endsection
+
+@endsection
 	
