@@ -241,19 +241,6 @@ span.psw {
 
 <!--CABEÇALHO -->
 <div class="container">
-
-	<div class="row" style="padding-top: px">
-	<div class="col-md-2 paragrafos1">
-
-		&#9993; deliveryfood.com.br 
-
-	</div>
-	
-	<div class="col-md-3 paragrafos1" style="margin-left: 0px;">
-
-	 &#9743; (84) 9999-9999
-	
-	</div>
 	
 	<!--<div class="col-md-7" style="text-align: right">
 
@@ -324,6 +311,16 @@ window.onclick = function(event) {
 
 	<div class="container" style="">
 	
+	<div class="row" style="padding-top: px">
+		<div class="col-md-8 paragrafos1" style="margin-left: 0px;">
+
+		&#9993; deliveryfood.com.br    &#9743; (84) 9999-9999 
+	
+	</div>
+</div>
+
+
+
 	<div class="row" style="">
 	<div class="col-md-12">
 	<div id="myCarousel" class="carousel slide" style="padding-bottom: 0px;">

@@ -13,8 +13,8 @@ class ProdutosControlador extends Controller
      */
     public function index()
     {
-        $produtos = Produto::all();
-        return view('listagem_de_produtos', compact('produtos'));
+        $produto = Produtos::all();
+        return view('listagem_de_produtos', compact('produto'));
     }
 
     /**
@@ -24,7 +24,7 @@ class ProdutosControlador extends Controller
      */
     public function create()
     {
-        //
+        return view("produtos_cadastrar");
     }
 
     /**
@@ -35,7 +35,7 @@ class ProdutosControlador extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
     }
 
     /**
