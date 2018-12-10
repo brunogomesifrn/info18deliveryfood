@@ -24,7 +24,7 @@ class ProdutosControlador extends Controller
      */
     public function create()
     {
-        //
+        return view("produtos_cadastrar");
     }
 
     /**
@@ -35,7 +35,16 @@ class ProdutosControlador extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $nome = $request->input('nome');
+        
+        $categoria = new Produto();
+        $categoria->nome = $nome;
+        $categoria->save();
+
+        return redirect("/categorias_produtos");
+
+
+
     }
 
     /**
