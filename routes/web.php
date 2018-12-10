@@ -69,6 +69,13 @@ Route::get('/perfis_usuarios_cadastrar', 'Perfil_UsuarioControlador@create')->mi
 Route::post('/perfis_usuarios_salvar', 'Perfil_UsuarioControlador@store')->middleware('auth');
 
 
+Route::get('/listagem_de_produtos', 'ProdutosControlador@index')->middleware('auth');
+Route::get('/', 'ProdutosControlador@create')->middleware('auth');
+Route::post('/salvar_produtos', 'ProdutosControlador@store')->middleware('auth');
+Route::get('/remover_produtos/{id}', 'Categoria_ProdutoControlador@destroy')->middleware('auth');
+Route::get('/editar_produtos/{id}', 'Categoria_ProdutoControlador@edit')->middleware('auth');
+Route::post('/autalizar_produtos/{id}', 'Categoria_ProdutoControlador@update')->middleware('auth');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
