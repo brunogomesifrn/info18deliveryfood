@@ -42,7 +42,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem" > </div>
+									 <img src="images/vovo-palmirinha-rosquinha-colorida-1-351x185.jpg" class="img-rounded" alt=" Rosquinha Colorida" > </div>
 									 <div class="caption  paragrafos">
 									  Rosquinha Colorida
  									 </div>
@@ -51,7 +51,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
+									 <img src="images/vovo-palmirinha-pao-de-mel-com-chocolate-branco-1-351x185.jpg" class="img-rounded" alt=" Pão de mel com chocolate branco"> </div>
 									 <div class="caption  paragrafos">
 									  Pão de mel com chocolate branco
  									 </div>
@@ -60,7 +60,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
+									 <img src="images/6.jpg" class="img-rounded" alt="Biscoito de corujas e corações"> </div>
 									 <div class="caption  paragrafos">
 									 Biscoito de corujas e corações
  									 </div>
@@ -69,7 +69,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
+									 <img src="images/barquinha-de-chocolate-com-docinhos-351x185.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption">
 									  Barquinha de chocolates com docinhos
  									 </div>
@@ -174,7 +174,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem" > </div>
+									 <img src="images/pastel_marilia_dirceu-190x190.jpg" class="img-rounded" alt="Paisagem" > </div>
 									 <div class="caption  paragrafos">
 									Pastel de bacalhau
  									 </div>
@@ -183,7 +183,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
+									 <img src="salgados-de-bisciuit-coxinha-de-biscuit.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
 									  Coxinha veganha congeladda
  									 </div>
@@ -192,7 +192,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
+									 <img src="images/QUIBE-QUINOA-190x190.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
 									  Quibe de Quinoa
  									 </div>
@@ -201,7 +201,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
+									 <img src="images/BROCOLIS-190x190.jpg" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
 									 Salgado Mini de frango com brocolis e couve flor congelado
  									 </div>
