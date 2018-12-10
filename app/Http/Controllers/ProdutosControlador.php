@@ -13,8 +13,8 @@ class ProdutosControlador extends Controller
      */
     public function index()
     {
-        $produto = Produtos::all();
-        return view('listagem_de_produtos', compact('produto'));
+        $produtos = Produtos::all();
+        return view('listagem_de_produtos', compact('produtos'));
     }
 
     /**
@@ -35,7 +35,34 @@ class ProdutosControlador extends Controller
      */
     public function store(Request $request)
     {
+
+        $nome = $request->input('nome');
         
+        $produto = new Produto();
+        $produto->nome = $nome;
+        $produto->save();
+
+        $descricao = $request->input('descricao');
+
+        $produto = new Produto();
+        $produto->descricao = $descricao;
+        $produto->save();
+
+        $valor = $request->input('valor');
+
+        $produto = new Produto();
+        $produto->valor = $valor;
+        $produto->save();
+
+        $unidade = $request->input('unidade');
+
+        $produto = new Produto();
+        $produto->unidade = $unidade;
+        $produto->save();
+
+
+        return redirect("/listagem_de_produtos");
+
     }
 
     /**
