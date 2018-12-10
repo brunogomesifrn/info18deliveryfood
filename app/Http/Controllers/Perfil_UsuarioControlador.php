@@ -64,7 +64,8 @@ class Perfil_UsuarioControlador extends Controller
      */
     public function edit($id)
     {
-        //
+         $perfil = Perfil_usuario::find($id);
+        return view('perfis_usuarios_cadastrar', compact('perfil'));
     }
 
     /**
@@ -76,7 +77,12 @@ class Perfil_UsuarioControlador extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $perfil = Perfil_usuario::find($id);
+        $nome = $request->input('nome_perfil');
+        $perfil->nome = $nome ;
+        $perfil->save();
+
+        return redirect("/perfis_usuarios");
     }
 
     /**
@@ -87,6 +93,9 @@ class Perfil_UsuarioControlador extends Controller
      */
     public function destroy($id)
     {
-        //
+         $perfil = Perfil_usuario::find($id);
+        $perfil->delete();
+
+        return redirect("/perfis_usuarios");
     }
 }
