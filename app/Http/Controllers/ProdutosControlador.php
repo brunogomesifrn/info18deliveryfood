@@ -13,7 +13,8 @@ class ProdutosControlador extends Controller
      */
     public function index()
     {
-        //
+         $produtos = Produtos::all();
+        return view('listagem_de_produtos', compact('produtos'));
     }
 
     /**

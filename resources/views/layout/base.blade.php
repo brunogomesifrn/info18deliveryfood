@@ -377,7 +377,7 @@ window.onclick = function(event) {
 					  
 					  
 
-					  <a href="/" class="active">Início</a>
+					  <a href="/inicio" class="active">Início</a>
 					  <a href="/comidas">Buscar produtos</a>
 					  <a href="/somos" class="">Quem somos</a>
 					  <a href="/cadastro">Cadastrar-se</a>
