@@ -21,6 +21,12 @@
 <p>Unidade: <input type="text" name="unidade" /></p>
 
 
+@foreach($categorias as $c)
+<p><input type="radio" name="categoria" value="{{$c->id}}">{{$c->nome}}</p>
+@endforeach
+
+
+
 <input type="submit" value="Enviar" />
 
 </form>

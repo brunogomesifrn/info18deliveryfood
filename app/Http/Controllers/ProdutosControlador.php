@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Produtos;
+use App\Categoria_produto;
 
 class ProdutosControlador extends Controller
 {
@@ -24,7 +26,8 @@ class ProdutosControlador extends Controller
      */
     public function create()
     {
-        return view("produtos_cadastrar");
+        $categorias = Categoria_produto::all();
+        return view("produtos_cadastrar", compact('categorias'));
     }
 
     /**
@@ -37,30 +40,21 @@ class ProdutosControlador extends Controller
     {
 
         $nome = $request->input('nome');
-        
-        $produto = new Produto();
+         $descricao = $request->input('descricao');
+         $valor = $request->input('valor');
+         $unidade = $request->input('unidade');
+         $categoria = $request->input('categoria');
+
+        $produto = new Produtos();
         $produto->nome = $nome;
-        $produto->save();
-
-        $descricao = $request->input('descricao');
-
-        $produto = new Produto();
         $produto->descricao = $descricao;
-        $produto->save();
-
-        $valor = $request->input('valor');
-
-        $produto = new Produto();
         $produto->valor = $valor;
-        $produto->save();
-
-        $unidade = $request->input('unidade');
-
-        $produto = new Produto();
         $produto->unidade = $unidade;
+        $produto->categoria_produto_id = $categoria;
+        $produto->imagem = "";
         $produto->save();
 
-
+    
         return redirect("/listagem_de_produtos");
 
     }
