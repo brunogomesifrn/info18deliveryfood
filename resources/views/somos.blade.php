@@ -24,15 +24,19 @@
 	
 	
 	<div class="col-md-9">
-	 <p class="p4 paragrafos">  texto texto texto texto 
-	 texto texto texto texto texto texto 
-	 texto texto  texto texto  texto texto  
-	 texto texto  texto texto texto texto texto 
-	 texto texto texto texto 
-	 texto texto texto texto texto texto 
-	 texto texto  texto texto  texto texto  
-	 texto texto  texto texto texto texto texto 
-	 texto texto texto texto texto texto. 
+	 <p class="p4 paragrafos">  
+		Os autores deste site de vendas de produtos alimentícios caseiros são alunos concluintes do Curso Técnico Integrado em Informática - modalidade presencial - no Instituto Federal de Educação, Ciência e Tencologia do Rio Grande do Norte - Campus Canguaretama.
+<br/> 
+<br/> 
+		<h4> Estes são os desenvolvedores desta página web </h4>
+
+		<h4> <a href="http://lattes.cnpq.br/5088579448491365" target="_blank"> Aline Bispo da Silva </a> </h4>
+
+		<h4> <a href="http://lattes.cnpq.br/3148836060953778" target="_blank"> Ana Karolina dos Santos Silva </a> </h4>
+ 
+		<h4> <a href="http://lattes.cnpq.br/816843605748495" target="_blank"> Simeone Gregorio dos Santos </a> </h4>
+		
+
 	 </p>
 
 		</div>
