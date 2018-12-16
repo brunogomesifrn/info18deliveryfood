@@ -175,7 +175,7 @@
 										<div>
 											<h3 class="p5">Kit Café da manhã com poemas</h3>
 											<p class="p5"> 
-												Kir ideal para suprender a pessoa amaada com um delicio café da manhã todo especial. 
+												Kir ideal para suprender a pessoa amada com um delicio café da manhã todo especial. 
 											</p>
 										</div>
 									</div>
