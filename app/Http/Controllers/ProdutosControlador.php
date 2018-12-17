@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 use App\Produto;
 use App\Categoria_produto;
 use Illuminate\Support\Facades\Storage;
+
+
+
 class ProdutosControlador extends Controller
 {
     /**
@@ -80,41 +83,36 @@ class ProdutosControlador extends Controller
      */
     public function edit($id)
     {
-       
-        $produtos = Produto::find($id);
-        $categorias = Categoria_produto::all();
-        return view('produtos_cadastrar', compact('produtos', 'categorias'));
-    }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+        $produto = Produto::find($id);
+        $categorias = Categoria_produto::all();
+        return view('produtos_cadastrar', compact ('produto', 'categorias'));
+
+
+     }
+
+
     public function update(Request $request, $id)
     {
-        
-        $nome = $request->input('nome');
+
+        $produto = Produto::find($id);
+
+         $nome = $request->input('nome');
          $descricao = $request->input('descricao');
          $valor = $request->input('valor');
          $unidade = $request->input('unidade');
-         $categoria = $request->input('categoria');
 
-        $produto = new Produto();
-        $produto->nome = $nome;
-        $produto->descricao = $descricao;
-        $produto->valor = $valor;
-        $produto->unidade = $unidade;
-        $produto->categoria_produto_id = $categoria;
-        $path = $request->file('imagem')->store('produtos', 'public');
-        $produto->imagem = $path;
+         if(!empty($request->file('imagem'))){
+            Storage::disk('public')->delete($produto->imagem);
+            $path = $request->file('imagem')->store('produtos', 'public');
+            $produto->imagem = $path;
 
+        }
+
+        $produto->categoria_produto_id = $request->input('categoria');
         $produto->save();
 
-    
-        return redirect("/listagem_de_produtos");
+         return redirect("/listagem_de_produtos");
 
     }
 
@@ -126,13 +124,13 @@ class ProdutosControlador extends Controller
      */
     public function destroy($id)
     {
-        $produto = Produtos::find($id);
+
+        $produto = Produto::find($id);
         Storage::disk('public')->delete($produto->imagem);
         $produto->categorias()->detach();
         $produto->delete();
 
         return redirect('/listagem_de_produtos');
-
 
 
 

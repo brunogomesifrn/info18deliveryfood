@@ -314,7 +314,7 @@ window.onclick = function(event) {
 	<div class="row" style="padding-top: px">
 		<div class="col-md-8 paragrafos1" style="margin-left: 0px;">
 
-		&#9993; deliveryfood.com.br    &#9743; (84) 9999-9999 
+		&#9993; deliveryfood@eliveryfood@    &#9743; (84) 4004-4114 
 	
 	</div>
 </div>
