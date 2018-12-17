@@ -20,10 +20,19 @@
 
 <p>Unidade: <input type="text" name="unidade" /></p>
 
+@if(!empty($produto))
+<p> <img src = "/storage/{{$produto->imagem}}" alt = "imagem do produto"/> </p>
+
+@endif
+
+<p>Imagem: <input type="file" name "imagem"> </p>
+
 
 @foreach($categorias as $c)
 <p><input type="radio" name="categoria" value="{{$c->id}}">{{$c->nome}}</p>
 @endforeach
+
+
 
 
 
