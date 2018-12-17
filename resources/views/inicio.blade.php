@@ -15,8 +15,11 @@
 	<div class="row">
 	<div class="col-md-3">
 	
-	<img src="images/header.jpg" class="img-circle img-responsive" alt="log do site" width="" height="">
-	
+	<center>
+	<img src="images/header.jpg" class="img-circle img-responsive" alt="log do site" align="middle" width="" height="">
+	</center>
+
+
 	</div>
 	
 	<div class="col-md-9 paragrafos">
