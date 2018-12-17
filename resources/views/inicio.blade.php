@@ -23,8 +23,9 @@
 	</div>
 	
 	<div class="col-md-9 paragrafos">
-	 <p>  
+	 <p align="middle">  
 
+	 
 	 Delivery Food é uma empresa que, através de um site, oferece aos cozinheiros e confeiteiros de Canguaretama a divulgação de seu trabalho e a encomenda online por parte dos consumidores. 
 
 	 </p>
@@ -132,7 +133,7 @@
 											<img src="images/bolo-cenografico-mulher-maravilha-sem-emenda.jpg" class="img-responsive" alt="">
 										</figure>
 										<div>
-										<h3 class="p5">
+										<h3 class="p5" align="middle">
 										Bolo cenográfico mulher maravilha.
 										</h3>
 											<p class="p5">
