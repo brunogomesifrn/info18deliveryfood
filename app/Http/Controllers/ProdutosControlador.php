@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Produtos;
 use App\Categoria_produto;
-
+use Illuminate\Support\Facades\Storage;
 class ProdutosControlador extends Controller
 {
     /**
@@ -103,6 +103,16 @@ class ProdutosControlador extends Controller
      */
     public function destroy($id)
     {
-        //
+        $produto = Produtos::find($id);
+        Storage::disk('public')->delete($produto->imagem);
+        $produto->categorias()->detach();
+        $produto->delete();
+
+        return redirect('/listagem_de_produtos');
+
+
+
+
+
     }
 }
