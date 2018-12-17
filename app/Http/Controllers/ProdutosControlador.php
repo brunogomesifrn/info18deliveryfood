@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Produto;
 use App\Categoria_produto;
 use Illuminate\Support\Facades\Storage;
-use Auth;
+
 
 
 class ProdutosControlador extends Controller
@@ -18,7 +18,7 @@ class ProdutosControlador extends Controller
      */
     public function index()
     {
-        $produtos = Produto::all()->where('user_id', Auth::user()->id);
+        $produtos = Produto::all();
         return view("listagem_de_produtos", compact('produtos'));
     }
 
