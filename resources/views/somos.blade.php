@@ -24,7 +24,7 @@
 	
 	
 	<div class="col-md-9">
-	 <p class="p4 paragrafos">  
+	 <p class="p4 paragrafos" align="justify">  
 		Os autores deste site de vendas de produtos alimentícios caseiros são alunos concluintes do Curso Técnico Integrado em Informática - modalidade presencial - no Instituto Federal de Educação, Ciência e Tencologia do Rio Grande do Norte - Campus Canguaretama.
 <br/> 
 <br/> 
