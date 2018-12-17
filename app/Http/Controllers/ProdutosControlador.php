@@ -80,9 +80,16 @@ class ProdutosControlador extends Controller
      */
     public function edit($id)
     {
+
+        $produto = Produtos::find($id);
+        $categorias = Categoria_produto::all();
+        return view('produtos_cadastrar', compact ('produto', 'categorias'));
+
+
        
         $produtos = Produto::find($id);
         return view('produtos_cadastar', compact('produtos'));
+
     }
 
     /**
