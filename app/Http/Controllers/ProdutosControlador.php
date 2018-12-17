@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Produtos;
+use App\Produto;
 use App\Categoria_produto;
 use Illuminate\Support\Facades\Storage;
 class ProdutosControlador extends Controller
@@ -15,7 +15,7 @@ class ProdutosControlador extends Controller
      */
     public function index()
     {
-        $produtos = Produtos::all();
+        $produtos = Produto::all();
         return view('listagem_de_produtos', compact('produtos'));
     }
 
@@ -45,7 +45,7 @@ class ProdutosControlador extends Controller
          $unidade = $request->input('unidade');
          $categoria = $request->input('categoria');
 
-        $produto = new Produtos();
+        $produto = new Produto();
         $produto->nome = $nome;
         $produto->descricao = $descricao;
         $produto->valor = $valor;
@@ -80,10 +80,16 @@ class ProdutosControlador extends Controller
      */
     public function edit($id)
     {
+<<<<<<< HEAD
         $produto = Produtos::find($id);
         $categorias = Categoria_produto::all();
         return view('produtos_cadastrar', compact ('produto', 'categorias'));
 
+=======
+       
+        $produtos = Produto::find($id);
+        return view('produtos_cadastar', compact('produtos'));
+>>>>>>> 84857b11c07814dc1d2d3f839ec67a50f04fdd64
     }
 
     /**
