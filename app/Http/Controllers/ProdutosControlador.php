@@ -51,7 +51,9 @@ class ProdutosControlador extends Controller
         $produto->valor = $valor;
         $produto->unidade = $unidade;
         $produto->categoria_produto_id = $categoria;
-        $produto->imagem = "";
+        $path = $request->file('imagem')->store('produtos', 'public');
+        $produto->imagem = $path;
+
         $produto->save();
 
     

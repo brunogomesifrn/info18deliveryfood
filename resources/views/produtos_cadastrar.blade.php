@@ -5,7 +5,7 @@
 
 <h3>Cadastrar um novo produto</h3>
 
-<form action = "/salvar_produtos" method = "post">
+<form action = "/salvar_produtos" method = "post" enctype="multipart/form-data">
 
 @csrf
 
