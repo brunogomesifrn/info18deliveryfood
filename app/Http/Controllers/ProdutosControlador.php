@@ -42,7 +42,7 @@ class ProdutosControlador extends Controller
     public function store(Request $request)
     {
 
-        $nome = $request->input('nome');
+         $nome = $request->input('nome');
          $descricao = $request->input('descricao');
          $valor = $request->input('valor');
          $unidade = $request->input('unidade');
@@ -98,9 +98,13 @@ class ProdutosControlador extends Controller
         $produto = Produto::find($id);
 
          $nome = $request->input('nome');
+         $produto->nome = $nome;
          $descricao = $request->input('descricao');
+         $produto->descricao= $descricao;
          $valor = $request->input('valor');
+         $produto->Valor = $valor;
          $unidade = $request->input('unidade');
+         $produto->unidade= $unidade;
 
          if(!empty($request->file('imagem'))){
             Storage::disk('public')->delete($produto->imagem);
@@ -110,7 +114,8 @@ class ProdutosControlador extends Controller
         }
 
         $produto->categoria_produto_id = $request->input('categoria');
-        $produto->save();
+
+           $produto->save();
 
          return redirect("/listagem_de_produtos");
 
@@ -126,13 +131,10 @@ class ProdutosControlador extends Controller
     {
 
         $produto = Produto::find($id);
-        Storage::disk('public')->delete($produto->imagem);
-        $produto->categorias()->detach();
+        Storage:: disk('public')->delete($produto->imagem);
         $produto->delete();
 
         return redirect('/listagem_de_produtos');
-
-
 
 
     }

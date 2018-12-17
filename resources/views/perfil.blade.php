@@ -7,7 +7,6 @@
 
 
 <p><a href="listagem_de_produtos">Meus Produtos</a></p>
-<p><a href="">Meus Pedidos</a></p>
 
 @if(Auth::user()->perfil_usuario->id != 1)
 <p><a href="perfis_usuarios">Configurar Perfis de Usuário</a></p>

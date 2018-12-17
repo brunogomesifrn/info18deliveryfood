@@ -72,7 +72,7 @@ Route::get('/produtos_cadastrar', 'ProdutosControlador@create')->middleware('aut
 Route::post('/salvar_produtos', 'ProdutosControlador@store')->middleware('auth');
 Route::get('/remover_produtos/{id}', 'ProdutosControlador@destroy')->middleware('auth');
 Route::get('/editar_produtos/{id}', 'ProdutosControlador@edit')->middleware('auth');
-Route::post('/autalizar_produtos/{id}', 'ProdutosControlador@update')->middleware('auth');
+Route::post('/atualizar_produtos/{id}', 'ProdutosControlador@update')->middleware('auth');
 
 Auth::routes();
 
