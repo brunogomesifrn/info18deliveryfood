@@ -22,12 +22,7 @@
 		
 		<div class="col-md-12" style="text-align: right">
 		<form action=" " method="post">
-		
-		<label for="busca" class="p3 paragrafos">Buscar produtos pelo CEP:</label>
-		
-		 <p><input type="text" value=""  onfocus="this.value=(this.value=='Busque produtos da sua cidade;')? '' : this.value ;" name="cep" />
-		
-		<button type="submit" style="font-family: arial">OK</button></p>
+
 		</form>
 		
 		</div>
@@ -38,7 +33,7 @@
 		<div class="container">
 		<div class="row" style="padding-top: 15px;">
 		
-		<p style="text-align: left; position: top; padding-left: 10px; font-family: verdana;" class="p4"> Doces </p>
+		<p style="text-align: left; position: top; padding-left: 10px; font-family: verdana;" class="p4" align="center"> Doces </p>
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
@@ -51,7 +46,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/receita-pao-mel-recheio-brigadeiro-branco.jpg" class="img-rounded" alt=" Pão de mel com chocolate branco"> </div>
+									 <img src="images/receita-pao-mel-recheio-brigadeiro-branco.jpg" class="img-rounded" alt=" Pão de mel com chocolate branco" > </div>
 									 <div class="caption  paragrafos">
 									  Pão de mel com chocolate branco
  									 </div>
@@ -60,7 +55,8 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/6.jpg" class="img-rounded" alt="Biscoito de corujas e corações"> </div>
+									 <img src="images/biscoitos-decorados-coruja-lembrancas-comestiveis.jpg" 
+									 class="img-rounded" alt="Biscoito de corujas e corações" width="150px"> </div>
 									 <div class="caption  paragrafos">
 									 Biscoito de corujas e corações
  									 </div>
@@ -86,7 +82,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem" > </div>
+									 <img src="images/mini-brownies-com-cobertura-sobremesa.jpg" width="220px" class="img-rounded" alt="Paisagem" > </div>
 									 <div class="caption  paragrafos">
 									 Mini brownies
  									 </div>
@@ -95,7 +91,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
+									 <img src="images/download.jpg" width="2px" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
 									  Bombom gelado
  									 </div>
@@ -148,7 +144,7 @@
 		
 		<div class="col-md-3">
 		<div class="thumbnail" width="90px"> 
-									 <img src="images/6.jpg" class="img-rounded" alt="Paisagem"> </div>
+									 <img src="images/1496773418-bolo-pao-de-mel_616x462.jpg" width="200px" class="img-rounded" alt="Paisagem"> </div>
 									 <div class="caption  paragrafos">
 									 Bolo pão-de-mel
  									 </div>
