@@ -70,9 +70,9 @@ Route::post('/atualizar_perfis/{id}', 'Perfil_UsuarioControlador@update')->middl
 Route::get('/listagem_de_produtos', 'ProdutosControlador@index')->middleware('auth');
 Route::get('/produtos_cadastrar', 'ProdutosControlador@create')->middleware('auth');
 Route::post('/salvar_produtos', 'ProdutosControlador@store')->middleware('auth');
-Route::get('/remover_produtos/{id}', 'Categoria_ProdutoControlador@destroy')->middleware('auth');
-Route::get('/editar_produtos/{id}', 'Categoria_ProdutoControlador@edit')->middleware('auth');
-Route::post('/autalizar_produtos/{id}', 'Categoria_ProdutoControlador@update')->middleware('auth');
+Route::get('/remover_produtos/{id}', 'ProdutosControlador@destroy')->middleware('auth');
+Route::get('/editar_produtos/{id}', 'ProdutosControlador@edit')->middleware('auth');
+Route::post('/autalizar_produtos/{id}', 'ProdutosControlador@update')->middleware('auth');
 
 Auth::routes();
 

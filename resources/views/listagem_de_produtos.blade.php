@@ -11,12 +11,13 @@
 
 @foreach($produtos as $p)
 
-	<p> {{$p->nome}} | <a href="/editar_produtos/{{$p->id}}">EDITAR</a> | <a href="remover_produtos/{{$p->id}}">REMOVER</a></p>
+	<p>{{$p->id}}</p>
+	<p> {{$p->nome}} </p>
 	<p> {{$p->descricao}} </p>
 	<p> {{$p->Valor}} </p>
-	<p> {{$p->unidade}}</p>
+	<p>{{$p->unidade}}</p>
 	<p> {{$p->categoria_produto->nome}} </p>
-
+ 	<p><a href="/editar_produtos/{{$p->id}}">EDITAR</a> | <a href="remover_produtos/{{$p->id}}">REMOVER</a></p>
 	
 @endforeach
 

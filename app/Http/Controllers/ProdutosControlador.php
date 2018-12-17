@@ -16,7 +16,7 @@ class ProdutosControlador extends Controller
     public function index()
     {
         $produtos = Produto::all();
-        return view('listagem_de_produtos', compact('produtos'));
+        return view("listagem_de_produtos", compact('produtos'));
     }
 
     /**
@@ -27,7 +27,7 @@ class ProdutosControlador extends Controller
     public function create()
     {
         $categorias = Categoria_produto::all();
-        return view("produtos_cadastrar", compact('categorias'));
+        return view('produtos_cadastrar', compact('categorias'));
     }
 
     /**
@@ -82,7 +82,8 @@ class ProdutosControlador extends Controller
     {
        
         $produtos = Produto::find($id);
-        return view('produtos_cadastar', compact('produtos'));
+        $categorias = Categoria_produto::all();
+        return view('produtos_cadastrar', compact('produtos', 'categorias'));
     }
 
     /**
@@ -94,7 +95,27 @@ class ProdutosControlador extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        
+        $nome = $request->input('nome');
+         $descricao = $request->input('descricao');
+         $valor = $request->input('valor');
+         $unidade = $request->input('unidade');
+         $categoria = $request->input('categoria');
+
+        $produto = new Produto();
+        $produto->nome = $nome;
+        $produto->descricao = $descricao;
+        $produto->valor = $valor;
+        $produto->unidade = $unidade;
+        $produto->categoria_produto_id = $categoria;
+        $path = $request->file('imagem')->store('produtos', 'public');
+        $produto->imagem = $path;
+
+        $produto->save();
+
+    
+        return redirect("/listagem_de_produtos");
+
     }
 
     /**
