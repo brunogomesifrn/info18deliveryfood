@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 use App\Produto;
 use App\Categoria_produto;
 use Illuminate\Support\Facades\Storage;
+
+
+
 class ProdutosControlador extends Controller
 {
     /**
@@ -81,14 +84,12 @@ class ProdutosControlador extends Controller
     public function edit($id)
     {
 
-        $produto = Produtos::find($id);
+        $produto = Produto::find($id);
         $categorias = Categoria_produto::all();
         return view('produtos_cadastrar', compact ('produto', 'categorias'));
 
 
        
-        $produtos = Produto::find($id);
-        return view('produtos_cadastar', compact('produtos'));
 
     }
 
@@ -101,7 +102,23 @@ class ProdutosControlador extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $produto = Produto::find($id);
+
+         $nome = $request->input('nome');
+         $descricao = $request->input('descricao');
+         $valor = $request->input('valor');
+         $unidade = $request->input('unidade');
+
+         if(!empty($request->file('imagem'))){
+            Storage::disk('public')->delete($produto->imagem);
+            $path = $request->file('imagem')->store('produtos', 'public');
+            $produto->imagem = $path;
+
+        }
+
+        $produto->categoria_produto_id = $request->input('categoria');
+        $produto->save();
+
     }
 
     /**
@@ -112,7 +129,7 @@ class ProdutosControlador extends Controller
      */
     public function destroy($id)
     {
-        $produto = Produtos::find($id);
+        $produto = Produto::find($id);
         Storage::disk('public')->delete($produto->imagem);
         $produto->categorias()->detach();
         $produto->delete();
